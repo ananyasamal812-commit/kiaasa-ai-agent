@@ -1,0 +1,11 @@
+.kiaasa-logo-image { display: block; width: 160px; max-width: 100%; height: auto; object-fit: contain; }
+.chat-header .header-copy { flex: 1; min-width: 0; }
+.chat-header .kiaasa-logo-image { width: 42cqw; max-width: 170px; }
+.chat-header .header-copy p { margin-top: 5px; font-size: 3.5cqw; }
+.logo { display: inline-flex; align-items: center; line-height: 1; }
+.logo .kiaasa-logo-image { width: 150px; }
+.brand .kiaasa-logo-image { width: 170px; }
+@media (max-width: 600px) { .logo .kiaasa-logo-image { width: 125px; } }
+
+.back { display: inline-flex; align-items: center; gap: 8px; line-height: 1.4; }
+.back svg { display: block; width: 20px; height: 20px; flex-shrink: 0; }

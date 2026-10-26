@@ -1,0 +1,1 @@
+Built-in image_gen edit: Remove popup, text, buttons, chat icon and bottom white strip from supplied reference; reconstruct underlying fashion photograph while preserving composition, printed clothing, wicker baskets, sandals and jute rug. No UI, text or watermark.

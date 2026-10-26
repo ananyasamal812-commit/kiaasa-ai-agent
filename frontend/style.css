@@ -1,0 +1,474 @@
+.tracking-card { margin: 12px 0; padding: 18px; border: 1px solid #ead7de; border-radius: 16px; background: #fff7fa; color: #35272d; font-size: 13px; }
+.tracking-card h3 { margin: 0 0 14px; color: #950c2d; font-size: 17px; }
+.tracking-card dl { display: grid; grid-template-columns: 1fr 1.2fr; gap: 8px 12px; margin: 0; }
+.tracking-card dt { color: #7b6570; }
+.tracking-card dd { margin: 0; overflow-wrap: anywhere; }
+.tracking-events { padding-left: 20px; margin: 16px 0; }
+.tracking-events li { padding: 0 0 12px 4px; line-height: 1.5; }
+.tracking-events small { display: block; color: #89717b; margin-top: 4px; }
+.tracking-card a { display: inline-block; padding: 10px 14px; border-radius: 8px; background: #950c2d; color: white; text-decoration: none; }
+
+.response-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 16px; }
+.response-actions button, .response-actions a { padding: 8px 12px; border: 1px solid #dfbbc7; border-radius: 18px; background: #fff7fa; color: #950c2d; font-size: 12px; cursor: pointer; text-decoration: none; }
+.response-actions button:hover, .response-actions a:hover { background: #f6e1e8; }
+.product-match-reasons { margin-top: 9px; padding-top: 8px; border-top: 1px solid #f0e1e7; color: #850c30; font-size: 11px; line-height: 1.5; }
+.start-over { border: 0; background: transparent; color: #850c30; font-size: 11px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; padding: 4px 6px; }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background: #faf7f2;
+}
+
+
+/* Floating chat button */
+
+#chat-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #8a1538;
+    color: white;
+
+    font-size: 25px;
+    cursor: pointer;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Chat container */
+
+#chat-container {
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+
+    width: 370px;
+    height: 540px;
+
+    background: white;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chat-hidden {
+    display: none !important;
+}
+
+
+/* Chat header */
+
+.chat-header {
+    padding: 18px;
+
+    background: #8a1538;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.chat-header p {
+    margin: 4px 0 0;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+
+.chat-header button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/* Messages area */
+
+.chat-messages {
+    flex: 1;
+
+    padding: 15px;
+
+    overflow-y: auto;
+
+    background: #fafafa;
+}
+
+
+.bot-message,
+.user-message {
+    padding: 12px 15px;
+    margin-bottom: 12px;
+
+    border-radius: 12px;
+
+    max-width: 80%;
+
+    line-height: 1.4;
+    font-size: 14px;
+
+    white-space: pre-wrap;
+}
+
+
+.bot-message {
+    background: #f1ebe5;
+    color: #333;
+}
+
+
+.user-message {
+    background: #8a1538;
+    color: white;
+    margin-left: auto;
+}
+
+
+/* Quick action buttons */
+
+.quick-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+
+    margin-top: 10px;
+}
+
+
+.quick-buttons button {
+    background: white;
+
+    border: 1px solid #8a1538;
+
+    color: #8a1538;
+
+    padding: 8px 12px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    font-size: 12px;
+}
+
+
+.quick-buttons button:hover {
+    background: #8a1538;
+    color: white;
+}
+
+
+/* Chat input */
+
+.chat-input {
+    border-top: 1px solid #ddd;
+
+    padding: 10px;
+
+    display: flex;
+
+    background: white;
+}
+
+
+.chat-input input {
+    flex: 1;
+
+    border: none;
+    outline: none;
+
+    padding: 10px;
+
+    font-size: 14px;
+}
+
+
+.chat-input button {
+    border: none;
+
+    background: #8a1538;
+    color: white;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+
+.chat-input button:hover {
+    opacity: 0.9;
+}
+
+
+/* --------------------------------------------------
+   PRODUCT CARD
+-------------------------------------------------- */
+
+.product-card {
+    background: #ffffff;
+
+    border: 1px solid #e4e4e4;
+
+    border-radius: 12px;
+
+    padding: 14px;
+
+    margin: 10px 0 15px 0;
+
+    max-width: 88%;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Product name */
+
+.product-name {
+    font-size: 14px;
+
+    font-weight: bold;
+
+    line-height: 1.4;
+
+    color: #333;
+
+    margin-bottom: 8px;
+}
+
+
+/* Price section */
+
+.product-price-row {
+    margin-bottom: 8px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+.product-price {
+    font-size: 17px;
+
+    font-weight: bold;
+
+    color: #8a1538;
+}
+
+
+.original-price {
+    font-size: 13px;
+
+    color: #888;
+
+    text-decoration: line-through;
+}
+
+
+/* Product information */
+
+.product-info {
+    font-size: 13px;
+
+    color: #555;
+
+    margin: 4px 0;
+}
+
+
+/* View Product Button */
+
+.view-product-btn {
+    display: inline-block;
+
+    margin-top: 12px;
+
+    padding: 9px 16px;
+
+    background: #8a1538;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+
+.view-product-btn:hover {
+    opacity: 0.9;
+
+    transform: translateY(-1px);
+}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 20px;
+    }
+
+
+    #chat-container {
+        right: 10px;
+        left: 10px;
+
+        bottom: 85px;
+
+        width: auto;
+
+        height: 70vh;
+    }
+
+
+    #chat-button {
+        right: 18px;
+        bottom: 18px;
+    }
+
+
+    .product-card {
+        max-width: 95%;
+    }
+}
+
+/* Welcome composition matched to the supplied reference. */
+:root { --kiaasa-red: #b40027; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background: #e7dfd0; color: #202020; }
+[hidden] { display: none !important; }
+button, input { font-family: inherit; }
+button, a { touch-action: manipulation; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #c58e51; outline-offset: 5px; }
+.fashion-backdrop { position: fixed; inset: 0; background: #e7dfd0 url('assets/fashion-background.png') center / cover no-repeat; }
+.brand { display: none; }
+.welcome-popup { position: fixed; z-index: 10; top: 4.82vh; left: 2.87vw; right: 1.5vw; height: 62.7vh; padding: 11.25vh 4.25vw 6.4vh 5.2vw; background: #fff; border-radius: 5.1vh; box-shadow: 0 1.2vh 3.8vh #241e2126; display: flex; flex-direction: column; }
+.welcome-close { position: absolute; top: 5.7vh; right: 5.55vw; width: 5.2vh; height: 5.2vh; border: 0; padding: 0; background: transparent; cursor: pointer; color: #202020; }
+.welcome-close::before, .welcome-close::after { content: ''; position: absolute; top: 45%; left: -8%; width: 116%; height: .75vh; background: currentColor; border-radius: 1vh; transform: rotate(45deg); }
+.welcome-close::after { transform: rotate(-45deg); }
+.welcome-close { font-size: 0; }
+.welcome-popup h1 { margin: 0; color: var(--kiaasa-red); font-size: 9.65vh; font-weight: 700; letter-spacing: -.3vh; line-height: 1.08; }
+.welcome-popup p { margin: 3.8vh 0 0; font-size: min(7.4vh, 6.2vw); font-weight: 600; letter-spacing: -.2vh; line-height: 1.16; white-space: nowrap; }
+.welcome-actions { display: grid; grid-template-columns: 1.04fr 1fr; gap: 2.5vw; margin-top: auto; }
+.welcome-actions button, .welcome-actions a { display: flex; align-items: center; justify-content: center; height: 17vh; padding: 1vh; border: .5vh solid var(--kiaasa-red); border-radius: 2.55vh; font-size: min(6.8vh, 5.8vw); font-weight: 600; line-height: 1; text-decoration: none; cursor: pointer; }
+.shop-now { background: var(--kiaasa-red); color: white; }
+.our-stores { background: white; color: var(--kiaasa-red); }
+.shop-now:hover { background: #980020; border-color: #980020; }
+.our-stores:hover { background: #fff5f7; }
+#chat-button { position: fixed; z-index: 30; right: 1.5vw; bottom: .9vh; width: min(25vw, 29vh); height: min(25vw, 29vh); border: .65vh solid white; border-radius: 50%; background: var(--kiaasa-red); color: white; display: grid; place-items: center; padding: 0; box-shadow: 0 1.2vh 3vh #221c2330; cursor: pointer; }
+#chat-button svg { width: 60%; height: 60%; }
+#chat-container { position: fixed; z-index: 40; right: 24px; bottom: 24px; width: min(420px, calc(100vw - 32px)); height: min(650px, calc(100dvh - 48px)); border-radius: 24px; background: white; overflow: hidden; box-shadow: 0 16px 52px #221c2340; display: flex; flex-direction: column; }
+.chat-hidden { display: none !important; }
+.chat-header, .user-message, .view-product-btn, .chat-input button { background: var(--kiaasa-red); }
+.chat-header { padding: 22px; }
+.chat-header button { width: 36px; height: 36px; }
+.chat-messages { background: #fffaf8; min-height: 0; }
+.bot-message { background: #f3ece8; }
+.quick-buttons button { border-color: var(--kiaasa-red); color: var(--kiaasa-red); }
+.quick-buttons button:hover { background: var(--kiaasa-red); }
+.product-price { color: var(--kiaasa-red); }
+.chat-input { padding: 14px; gap: 8px; }
+.chat-input input { min-width: 0; }
+@media (max-width: 600px) {
+ .welcome-popup { top: 7vh; left: 4vw; right: 4vw; height: auto; min-height: 42vh; padding: 9vh 5vw 4vh; border-radius: 24px; }
+ .welcome-close { top: 3vh; right: 6vw; width: 26px; height: 26px; }
+ .welcome-close::before, .welcome-close::after { height: 4px; }
+ .welcome-popup h1 { font-size: 12vw; letter-spacing: -.3vw; }
+ .welcome-popup p { font-size: 7.2vw; white-space: normal; margin: 3vh 0 5vh; letter-spacing: -.15vw; }
+ .welcome-actions { gap: 3vw; }
+ .welcome-actions button, .welcome-actions a { height: 10vh; min-height: 62px; font-size: 5.8vw; border-width: 2px; border-radius: 14px; }
+ #chat-button { width: 25vw; height: 25vw; right: 4vw; bottom: 3vh; border-width: 4px; }
+ #chat-container { left: 12px; right: 12px; bottom: 16px; width: auto; height: calc(100dvh - 32px); }
+}
+
+/* Shopping widget matched to the supplied Kiaasa reference. */
+#chat-container { container-type: inline-size; top: 20px; bottom: auto; right: 28px; width: min(520px, calc((100dvh - 90px) * .657), calc(100vw - 32px)); height: min(792px, calc(100dvh - 90px)); border-radius: 4.7cqw; border: 1px solid #e9e9e9; background: #fdfdfd; box-shadow: 0 8px 32px #0000001a; }
+.chat-header { flex: 0 0 auto; display: flex; align-items: center; gap: 4.3cqw; padding: 3.8cqw 4.8cqw 2.5cqw; border-bottom: 1px solid #dedfe3; background: #fdfdfd; color: #4b5160; }
+.kiaasa-monogram { flex-shrink: 0; width: 14cqw; height: 14cqw; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #720c08, #4d0000); color: #fff0b9; font: 10.1cqw/1 Georgia, 'Times New Roman', serif; display: grid; place-items: center; }
+.header-copy { min-width: 0; }
+.chat-header strong { display: block; color: #6e0906; font-size: 5.5cqw; line-height: 1.2; font-weight: 700; }
+.chat-header p { margin: .4cqw 0 0; font-size: 3.65cqw; opacity: 1; line-height: 1.35; white-space: nowrap; }
+.header-controls { display: flex; gap: 4.5cqw; margin-left: auto; align-self: center; }
+.header-controls button { width: 3.8cqw; height: 4.5cqw; background: transparent; border: 0; padding: 0; color: #484c58; cursor: pointer; }
+.header-controls svg { width: 100%; height: 100%; }
+.chat-messages { flex: 1; overflow-y: auto; padding: 3.7cqw 6.5cqw 4.8cqw; background: #fdfdfd; scrollbar-width: thin; }
+.welcome-message { background: #f0f2f5; padding: 3.5cqw 4.5cqw; border-radius: 5.4cqw; color: #090f17; font-size: 4.45cqw; line-height: 1.4; letter-spacing: -.1cqw; margin-bottom: 2.7cqw; }
+.shopping-menu { display: grid; gap: 1.8cqw; }
+.menu-action { width: 100%; min-height: 13.8cqw; display: flex; align-items: center; gap: 5.8cqw; padding: 2.4cqw 5.8cqw; border-radius: 5cqw; border: 0; background: white; color: #0b1119; box-shadow: 0 1cqw 3.4cqw #1f18200c; text-decoration: none; font-size: 4.45cqw; font-weight: 500; text-align: left; cursor: pointer; }
+.menu-action:hover { background: #fff6f8; }
+.menu-icon { flex: 0 0 auto; width: 7.2cqw; height: 7.2cqw; color: #950c2d; }
+.menu-chevron { margin-left: auto; width: 3.5cqw; height: 3.5cqw; flex-shrink: 0; color: #484c58; }
+.chat-footer { flex-shrink: 0; border-top: 1px solid #dedfe3; padding: 3cqw 4cqw 2.5cqw; background: #fdfdfd; }
+.chat-input { position: relative; display: flex; align-items: center; height: 13.5cqw; padding: 0 13.7cqw 0 3.9cqw; border: .35cqw solid #cfd2da; border-radius: 8cqw; background: #fff; }
+.chat-input input { width: 100%; min-width: 0; padding: 0; font-size: 4.1cqw; color: #111827; background: transparent; border: 0; }
+.chat-input input::placeholder { color: #858b99; opacity: 1; }
+.chat-input button { position: absolute; right: -.3cqw; top: -.4cqw; width: 13.8cqw; height: 13.8cqw; padding: 4cqw; background: linear-gradient(135deg, #990e30, #85001f); color: white; border: 0; border-radius: 50%; cursor: pointer; }
+.chat-input button svg { width: 100%; height: 100%; }
+.powered-by { text-align: center; color: #555b68; margin: 2.8cqw 0 0; font-size: 3.1cqw; line-height: 1.2; }
+.bot-message, .user-message { font-size: 3.4cqw; max-width: 90%; padding: 2.7cqw 3cqw; border-radius: 3cqw; }
+#chat-button { width: 86px; height: 86px; right: 30px; bottom: 12px; border: 0; background: linear-gradient(135deg, #990e30, #85001f); }
+#chat-button svg { width: 56%; height: 56%; }
+@media (max-width: 600px) { #chat-container { top: 12px; left: auto; right: 16px; width: min(calc(100vw - 32px), calc((100dvh - 80px) * .657)); height: calc(100dvh - 80px); border-radius: 24px; } #chat-button { width: 64px; height: 64px; right: 20px; bottom: 6px; } }
+
+
+.product-card { max-width: 100%; width: 100%; padding: 12px; overflow: hidden; border-radius: 16px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(80px, 32%); gap: 12px; align-items: start; }
+.product-media { grid-column: 2; grid-row: 1; width: 100%; aspect-ratio: 3 / 4; background: #f4f0ed; display: grid; place-items: center; border-radius: 10px; overflow: hidden; }
+.product-image { display: block; width: 100%; height: 100%; object-fit: contain; min-height: 0; }
+.product-image-unavailable { color: #777; font-size: 11px; padding: 8px; text-align: center; }
+.product-details { grid-column: 1; grid-row: 1; min-width: 0; padding: 0; }
+.product-name { font-size: 13px; line-height: 1.35; overflow-wrap: anywhere; margin-bottom: 8px; }
+.product-price-row { flex-wrap: wrap; gap: 6px; }
+.product-price { font-size: 16px; }
+.original-price { font-size: 11px; }
+.product-info { font-size: 12px; line-height: 1.4; }
+.view-product-btn { margin-top: 10px; padding: 8px 12px; font-size: 12px; }
+
+.collection-switcher { display: flex; gap: 6px; padding: 10px 14px; border-bottom: 1px solid #eee; flex-shrink: 0; }
+.collection-switcher button { flex: 1; padding: 8px 5px; font-size: 12px; border: 1px solid #950c2d; border-radius: 20px; color: #950c2d; background: white; cursor: pointer; }
+.collection-switcher button:hover { background: #fff0f4; }
+
+.collection-load-more { display: block; width: 100%; margin: 12px 0; padding: 12px; border: 1px solid #950c2d; border-radius: 14px; background: #fff5f8; color: #950c2d; font-weight: 600; cursor: pointer; }
+.collection-load-more:hover { background: #f8e3eb; }
+
+.tracking-location-note { font-size: 12px; line-height: 1.5; color: #666; }
+
+.tracking-refresh-controls { display: grid; gap: 8px; margin-top: 12px; }
+.tracking-refresh-controls small { color: #666; line-height: 1.5; }
+.tracking-refresh-controls button { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; background: white; color: #333; cursor: pointer; }

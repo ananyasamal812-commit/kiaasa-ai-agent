@@ -1,0 +1,13 @@
+{$SITE_DOMAIN} {
+    encode zstd gzip
+    request_body {
+        max_size 16KB
+    }
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy strict-origin-when-cross-origin
+        Permissions-Policy "geolocation=(self), camera=(), microphone=()"
+        Content-Security-Policy "default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://*.tile.openstreetmap.org; font-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self' https://www.kiaasa.in https://kiaasa.in; upgrade-insecure-requests"
+    }
+    reverse_proxy app:8000
+}

@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+.vercel/
+.vercel
+
+backend/data/runtime/
+backend/data/catalogue-pages/
+backend/data/*.lock
+backend/data/*.tmp
+backend/data/catalogue-refresh-errors.json
+*.sqlite3*
+production.env
+
+# Keep only the publishable catalogue snapshot and reviewed metadata.
+backend/data/*
+!backend/data/products.json
+!backend/data/catalogue-overrides.json
+!backend/data/catalogue-refresh.json
+# Hosting credentials and local tooling
+.DS_Store
+*.log

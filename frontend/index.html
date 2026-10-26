@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiaasa AI Assistant</title>
+    <link rel="stylesheet" href="style.css?v=20261007-conversation">
+    <style id="welcome-critical-styles">
+/* Welcome composition matched to the supplied reference. */
+:root { --kiaasa-red: #b40027; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background: #e7dfd0; color: #202020; }
+[hidden] { display: none !important; }
+button, input { font-family: inherit; }
+button, a { touch-action: manipulation; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #c58e51; outline-offset: 5px; }
+.fashion-backdrop { position: fixed; inset: 0; background: #e7dfd0 url('assets/fashion-background.png') center / cover no-repeat; }
+.brand { display: none; }
+.welcome-popup { position: fixed; z-index: 10; top: 4.82vh; left: 2.87vw; right: 1.5vw; height: 62.7vh; padding: 11.25vh 4.25vw 6.4vh 5.2vw; background: #fff; border-radius: 5.1vh; box-shadow: 0 1.2vh 3.8vh #241e2126; display: flex; flex-direction: column; }
+.welcome-close { position: absolute; top: 5.7vh; right: 5.55vw; width: 5.2vh; height: 5.2vh; border: 0; padding: 0; background: transparent; cursor: pointer; color: #202020; }
+.welcome-close::before, .welcome-close::after { content: ''; position: absolute; top: 45%; left: -8%; width: 116%; height: .75vh; background: currentColor; border-radius: 1vh; transform: rotate(45deg); }
+.welcome-close::after { transform: rotate(-45deg); }
+.welcome-close { font-size: 0; }
+.welcome-popup h1 { margin: 0; color: var(--kiaasa-red); font-size: 9.65vh; font-weight: 700; letter-spacing: -.3vh; line-height: 1.08; }
+.welcome-popup p { margin: 3.8vh 0 0; font-size: min(7.4vh, 6.2vw); font-weight: 600; letter-spacing: -.2vh; line-height: 1.16; white-space: nowrap; }
+.welcome-actions { display: grid; grid-template-columns: 1.04fr 1fr; gap: 2.5vw; margin-top: auto; }
+.welcome-actions button, .welcome-actions a { display: flex; align-items: center; justify-content: center; height: 17vh; padding: 1vh; border: .5vh solid var(--kiaasa-red); border-radius: 2.55vh; font-size: min(6.8vh, 5.8vw); font-weight: 600; line-height: 1; text-decoration: none; cursor: pointer; }
+.shop-now { background: var(--kiaasa-red); color: white; }
+.our-stores { background: white; color: var(--kiaasa-red); }
+.shop-now:hover { background: #980020; border-color: #980020; }
+.our-stores:hover { background: #fff5f7; }
+#chat-button { position: fixed; z-index: 30; right: 1.5vw; bottom: .9vh; width: min(25vw, 29vh); height: min(25vw, 29vh); border: .65vh solid white; border-radius: 50%; background: var(--kiaasa-red); color: white; display: grid; place-items: center; padding: 0; box-shadow: 0 1.2vh 3vh #221c2330; cursor: pointer; }
+#chat-button svg { width: 60%; height: 60%; }
+#chat-container { position: fixed; z-index: 40; right: 24px; bottom: 24px; width: min(420px, calc(100vw - 32px)); height: min(650px, calc(100dvh - 48px)); border-radius: 24px; background: white; overflow: hidden; box-shadow: 0 16px 52px #221c2340; display: flex; flex-direction: column; }
+.chat-hidden { display: none !important; }
+.chat-header, .user-message, .view-product-btn, .chat-input button { background: var(--kiaasa-red); }
+.chat-header { padding: 22px; }
+.chat-header button { width: 36px; height: 36px; }
+.chat-messages { background: #fffaf8; min-height: 0; }
+.bot-message { background: #f3ece8; }
+.quick-buttons button { border-color: var(--kiaasa-red); color: var(--kiaasa-red); }
+.quick-buttons button:hover { background: var(--kiaasa-red); }
+.product-price { color: var(--kiaasa-red); }
+.chat-input { padding: 14px; gap: 8px; }
+.chat-input input { min-width: 0; }
+@media (max-width: 600px) {
+ .welcome-popup { top: 7vh; left: 4vw; right: 4vw; height: auto; min-height: 42vh; padding: 9vh 5vw 4vh; border-radius: 24px; }
+ .welcome-close { top: 3vh; right: 6vw; width: 26px; height: 26px; }
+ .welcome-close::before, .welcome-close::after { height: 4px; }
+ .welcome-popup h1 { font-size: 12vw; letter-spacing: -.3vw; }
+ .welcome-popup p { font-size: 7.2vw; white-space: normal; margin: 3vh 0 5vh; letter-spacing: -.15vw; }
+ .welcome-actions { gap: 3vw; }
+ .welcome-actions button, .welcome-actions a { height: 10vh; min-height: 62px; font-size: 5.8vw; border-width: 2px; border-radius: 14px; }
+ #chat-button { width: 25vw; height: 25vw; right: 4vw; bottom: 3vh; border-width: 4px; }
+ #chat-container { left: 12px; right: 12px; bottom: 16px; width: auto; height: calc(100dvh - 32px); }
+}
+</style>
+<style id="widget-critical-styles">
+/* Shopping widget matched to the supplied Kiaasa reference. */
+#chat-container { container-type: inline-size; top: 20px; bottom: auto; right: 28px; width: min(520px, calc((100dvh - 90px) * .657), calc(100vw - 32px)); height: min(792px, calc(100dvh - 90px)); border-radius: 4.7cqw; border: 1px solid #e9e9e9; background: #fdfdfd; box-shadow: 0 8px 32px #0000001a; }
+.chat-header { flex: 0 0 auto; display: flex; align-items: center; gap: 4.3cqw; padding: 3.8cqw 4.8cqw 2.5cqw; border-bottom: 1px solid #dedfe3; background: #fdfdfd; color: #4b5160; }
+.kiaasa-monogram { flex-shrink: 0; width: 14cqw; height: 14cqw; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #720c08, #4d0000); color: #fff0b9; font: 10.1cqw/1 Georgia, 'Times New Roman', serif; display: grid; place-items: center; }
+.header-copy { min-width: 0; }
+.chat-header strong { display: block; color: #6e0906; font-size: 5.5cqw; line-height: 1.2; font-weight: 700; }
+.chat-header p { margin: .4cqw 0 0; font-size: 3.65cqw; opacity: 1; line-height: 1.35; white-space: nowrap; }
+.header-controls { display: flex; gap: 4.5cqw; margin-left: auto; align-self: center; }
+.header-controls button { width: 3.8cqw; height: 4.5cqw; background: transparent; border: 0; padding: 0; color: #484c58; cursor: pointer; }
+.header-controls svg { width: 100%; height: 100%; }
+.chat-messages { flex: 1; overflow-y: auto; padding: 3.7cqw 6.5cqw 4.8cqw; background: #fdfdfd; scrollbar-width: thin; }
+.welcome-message { background: #f0f2f5; padding: 3.5cqw 4.5cqw; border-radius: 5.4cqw; color: #090f17; font-size: 4.45cqw; line-height: 1.4; letter-spacing: -.1cqw; margin-bottom: 2.7cqw; }
+.shopping-menu { display: grid; gap: 1.8cqw; }
+.menu-action { width: 100%; min-height: 13.8cqw; display: flex; align-items: center; gap: 5.8cqw; padding: 2.4cqw 5.8cqw; border-radius: 5cqw; border: 0; background: white; color: #0b1119; box-shadow: 0 1cqw 3.4cqw #1f18200c; text-decoration: none; font-size: 4.45cqw; font-weight: 500; text-align: left; cursor: pointer; }
+.menu-action:hover { background: #fff6f8; }
+.menu-icon { flex: 0 0 auto; width: 7.2cqw; height: 7.2cqw; color: #950c2d; }
+.menu-chevron { margin-left: auto; width: 3.5cqw; height: 3.5cqw; flex-shrink: 0; color: #484c58; }
+.chat-footer { flex-shrink: 0; border-top: 1px solid #dedfe3; padding: 3cqw 4cqw 2.5cqw; background: #fdfdfd; }
+.chat-input { position: relative; display: flex; align-items: center; height: 13.5cqw; padding: 0 13.7cqw 0 3.9cqw; border: .35cqw solid #cfd2da; border-radius: 8cqw; background: #fff; }
+.chat-input input { width: 100%; min-width: 0; padding: 0; font-size: 4.1cqw; color: #111827; background: transparent; border: 0; }
+.chat-input input::placeholder { color: #858b99; opacity: 1; }
+.chat-input button { position: absolute; right: -.3cqw; top: -.4cqw; width: 13.8cqw; height: 13.8cqw; padding: 4cqw; background: linear-gradient(135deg, #990e30, #85001f); color: white; border: 0; border-radius: 50%; cursor: pointer; }
+.chat-input button svg { width: 100%; height: 100%; }
+.powered-by { text-align: center; color: #555b68; margin: 2.8cqw 0 0; font-size: 3.1cqw; line-height: 1.2; }
+.bot-message, .user-message { font-size: 3.4cqw; max-width: 90%; padding: 2.7cqw 3cqw; border-radius: 3cqw; }
+#chat-button { width: 86px; height: 86px; right: 30px; bottom: 12px; border: 0; background: linear-gradient(135deg, #990e30, #85001f); }
+#chat-button svg { width: 56%; height: 56%; }
+@media (max-width: 600px) { #chat-container { top: 12px; left: auto; right: 16px; width: min(calc(100vw - 32px), calc((100dvh - 80px) * .657)); height: calc(100dvh - 80px); border-radius: 24px; } #chat-button { width: 64px; height: 64px; right: 20px; bottom: 6px; } }
+</style>
+<style id="product-image-styles">
+.product-card { max-width: 100%; width: 100%; padding: 12px; overflow: hidden; border-radius: 16px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(80px, 32%); gap: 12px; align-items: start; }
+.product-media { grid-column: 2; grid-row: 1; width: 100%; aspect-ratio: 3 / 4; background: #f4f0ed; display: grid; place-items: center; border-radius: 10px; overflow: hidden; }
+.product-image { display: block; width: 100%; height: 100%; object-fit: contain; min-height: 0; }
+.product-image-unavailable { color: #777; font-size: 11px; padding: 8px; text-align: center; }
+.product-details { grid-column: 1; grid-row: 1; min-width: 0; padding: 0; }
+.product-name { font-size: 13px; line-height: 1.35; overflow-wrap: anywhere; margin-bottom: 8px; }
+.product-price-row { flex-wrap: wrap; gap: 6px; }
+.product-price { font-size: 16px; }
+.original-price { font-size: 11px; }
+.product-info { font-size: 12px; line-height: 1.4; }
+.view-product-btn { margin-top: 10px; padding: 8px 12px; font-size: 12px; }
+</style>
+<style>
+.collection-switcher { display: flex; gap: 6px; padding: 10px 14px; border-bottom: 1px solid #eee; flex-shrink: 0; }
+.collection-switcher button { flex: 1; padding: 8px 5px; font-size: 12px; border: 1px solid #950c2d; border-radius: 20px; color: #950c2d; background: white; cursor: pointer; }
+.collection-switcher button:hover { background: #fff0f4; }
+</style>
+<style id="chat-input-focus-style">
+#message-input:focus, #message-input:focus-visible { outline: none; box-shadow: none; }
+</style>
+    <link rel="stylesheet" href="popup-layout.css?v=20261023-compact">
+    <link rel="stylesheet" href="cart.css?v=20261024-2">
+    <link rel="stylesheet" href="branding.css?v=20261026-1">
+</head>
+
+<body>
+
+    <main class="fashion-backdrop" aria-label="Kiaasa women's ethnic wear">
+        <a class="brand" href="https://kiaasa.com/"><img class="kiaasa-logo-image" src="assets/kiaasa-logo.jpeg" alt="Kiaasa" width="829" height="270"><span>Women's Ethnic Wear</span></a>
+    </main>
+
+    <section id="welcome-popup" class="welcome-popup" aria-labelledby="welcome-title">
+        <button class="welcome-close" data-chat-action="dismissWelcome" aria-label="Dismiss welcome popup">&times;</button>
+        <h1 id="welcome-title">Hi There!</h1>
+        <p>Need help finding your style?</p>
+        <div class="welcome-actions">
+            <button class="shop-now" data-chat-action="openChat">Shop Now</button>
+            <a class="our-stores" href="stores.html">Our Stores</a>
+        </div>
+    </section>
+
+    <!-- Floating Chat Button -->
+    <button id="chat-button" data-chat-action="toggleChat" aria-label="Open shopping assistant" aria-expanded="false" aria-controls="chat-container">
+        <svg viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M40 10a29 29 0 0 0-25 44L10 70l18-5A29 29 0 1 0 40 10Z" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/><circle cx="28" cy="39" r="3.4" fill="currentColor"/><circle cx="41" cy="39" r="3.4" fill="currentColor"/><circle cx="54" cy="39" r="3.4" fill="currentColor"/></svg>
+    </button>
+
+<div id="chat-container" class="chat-hidden" role="region" aria-label="Kiaasa shopping assistant">
+ <header class="chat-header">
+  
+  <div class="header-copy"><img class="kiaasa-logo-image" src="assets/kiaasa-logo.jpeg" alt="Kiaasa" width="829" height="270"><p>Your Shopping Assistant</p></div>
+  <div class="header-controls"><button data-chat-action="toggleChat" aria-label="Minimize chat"><svg class="" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 16h22"/></svg></button><button data-chat-action="toggleChat" aria-label="Close chat"><svg class="" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 20 20M6 26 26 6"/></svg></button></div>
+ </header>
+ <nav id="collection-switcher" class="collection-switcher" aria-label="Browse another collection" hidden><button data-collection="new_arrivals">New Arrivals</button><button data-collection="festive">Festive Wear</button><button data-collection="everyday">Everyday Styles</button></nav>
+ <div class="assistant-cart-toolbar"><button id="cart-toggle" type="button" aria-expanded="false" aria-controls="assistant-cart">Cart (0)</button></div>
+ <section id="assistant-cart" class="assistant-cart-panel" aria-label="Assistant cart" tabindex="-1" hidden></section>
+ <div id="chat-messages" class="chat-messages" aria-live="polite">
+  <div class="welcome-message">Hi! &#128075;<br>What are you looking for today?</div>
+  <nav id="shopping-menu" class="shopping-menu" aria-label="Shopping shortcuts"><button class="menu-action" data-collection="new_arrivals"><svg class="menu-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 3 4 8 9 1-6 7 2 10-9-5-9 5 2-10-6-7 9-1Z"/></svg><span>New Arrivals</span><svg class="menu-chevron" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 7 9 9-9 9"/></svg></button>
+<button class="menu-action" data-collection="festive"><svg class="menu-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3c-4 4-4 7 0 9 4-2 4-5 0-9Z"/><path d="M11 11C2 7 1 21 9 25h14c8-4 7-18-2-14M9 25l-2 4h18l-2-4M10 17c2-3 5-2 6 0 1-2 4-3 6 0M11 21c3 2 7 2 10 0"/></svg><span>Festive Wear</span><svg class="menu-chevron" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 7 9 9-9 9"/></svg></button>
+<button class="menu-action" data-collection="everyday"><svg class="menu-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 7c0-7 10-7 10 0M6 9l-3 20h26L26 9l-10 9Z"/></svg><span>Everyday Styles</span><svg class="menu-chevron" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 7 9 9-9 9"/></svg></button>
+<a class="menu-action" href="stores.html"><svg class="menu-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 30S5 16 5 12a11 11 0 0 1 22 0c0 4-11 18-11 18Z"/><circle cx="16" cy="12" r="4"/></svg><span>Find a Store</span><svg class="menu-chevron" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 7 9 9-9 9"/></svg></a>
+<button class="menu-action" data-message="I want to track my order"><svg class="menu-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 8 13-6 13 6v17l-13 6-13-6ZM3 8l13 6 13-6M16 14v17M10 11l13-6"/></svg><span>Track My Order</span><svg class="menu-chevron" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 7 9 9-9 9"/></svg></button></nav>
+ </div>
+ <footer class="chat-footer"><div class="chat-input"><input id="message-input" aria-label="Message the Kiaasa assistant" type="text" placeholder="Type your message..."><button data-chat-action="sendMessage" aria-label="Send message"><svg class="" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 14 26-11-10 26-4-10-12-5ZM15 19 29 3M15 19v9l4-5"/></svg></button></div><p class="powered-by">Powered by Kiaasa ? <a href="privacy.html" target="_blank" rel="noopener">Privacy</a></p></footer>
+</div>
+
+    <script src="product-images.js?v=20261005-9"></script>
+    <script src="cart.js?v=20261024-3"></script>
+    <script src="script.js?v=20261026-handoff"></script>
+
+</body>
+</html>

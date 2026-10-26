@@ -1,0 +1,8 @@
+﻿backend/venv/
+backend/__pycache__/
+backend/.env
+backend/.env.*
+backend/data/*
+!backend/data/products.json
+.git/
+.vercel/

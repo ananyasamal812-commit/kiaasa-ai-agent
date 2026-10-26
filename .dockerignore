@@ -1,0 +1,14 @@
+**/.env
+**/.env.*
+**/venv
+**/.venv
+**/__pycache__
+.git
+.vercel
+backend/data/catalogue-pages
+backend/data/runtime
+backend/data/site-cart-review.js
+backend/data/chunk-*.js
+backend/data/*before-refresh*
+backend/data/colour-review.webp
+production.env

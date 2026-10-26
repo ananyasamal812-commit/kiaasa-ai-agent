@@ -1,0 +1,25 @@
+{
+  "source": "https://www.kiaasa.in/sitemap/products.xml",
+  "refreshed_at": "2026-10-26T04:45:09.001239+00:00",
+  "sitemap_products": 308,
+  "imported_products": 308,
+  "collection_counts": {
+    "festive": 190,
+    "everyday": 153,
+    "new_arrivals": 15
+  },
+  "new_arrivals_rule": "Newest season published in product specifications",
+  "newest_season_key": [
+    2026,
+    1
+  ],
+  "season_counts": {
+    "SS25": 1,
+    "SUMMER": 17,
+    "Summer": 138,
+    "null": 137,
+    "SS26": 15
+  },
+  "stock_note": "Store-specific inventory is not available in this public snapshot.",
+  "live_fetch": true
+}

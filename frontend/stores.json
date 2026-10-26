@@ -1,0 +1,1514 @@
+{
+  "source": "https://stores.kiaasaretail.com/",
+  "updated": "2026-10-06",
+  "stores": [
+    {
+      "cname": "Kiaasa - Kamla Nagar, Delhi",
+      "latlng": {
+        "lat": 28.6823905,
+        "lng": 77.2037034
+      },
+      "address": "17UB, Ground Floor, Main Market, Kamla Nagar, New Delhi, Delhi - 110007",
+      "locality": "Kamla Nagar, New Delhi",
+      "phone": "+91 93190 08658 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kamla-nagar-new-delhi-46379/map",
+      "homeurl": "https://stores.kiaasaretail.com/kamla-nagar-new-delhi-46379/home"
+    },
+    {
+      "cname": "Kiaasa - V3S Mall, New Delhi",
+      "latlng": {
+        "lat": 28.62311424,
+        "lng": 77.29562622
+      },
+      "address": "Shop No G 71,72, SM 3B V3S Mall, Laxmi Nagar, District Centre, Swasthya Vihar, New Delhi, Delhi - 110092",
+      "locality": "Swasthya Vihar, New Delhi",
+      "phone": "+91 93190 08584 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/swasthya-vihar-new-delhi-44426/map",
+      "homeurl": "https://stores.kiaasaretail.com/swasthya-vihar-new-delhi-44426/home"
+    },
+    {
+      "cname": "Kiaasa - Krishna Nagar, New Delhi",
+      "latlng": {
+        "lat": 28.65611714,
+        "lng": 77.28248789
+      },
+      "address": "C 9/10, Ground Floor , Bhagat Singh Road, Krishna Nagar, New Delhi, Delhi - 110051",
+      "locality": "Krishna Nagar, New Delhi",
+      "phone": "+91 93190 08594 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/krishna-nagar-new-delhi-44431/map",
+      "homeurl": "https://stores.kiaasaretail.com/krishna-nagar-new-delhi-44431/home"
+    },
+    {
+      "cname": "Kiaasa - Rajouri Garden, New Delhi",
+      "latlng": {
+        "lat": 28.6453714,
+        "lng": 77.117915
+      },
+      "address": "Shop No H-45, Main Market, Near Sai Mandir, Rajouri Garden, New Delhi, Delhi - 110027",
+      "locality": "Rajouri Garden, New Delhi",
+      "phone": "+91 93190 08629 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/rajouri-garden-new-delhi-44432/map",
+      "homeurl": "https://stores.kiaasaretail.com/rajouri-garden-new-delhi-44432/home"
+    },
+    {
+      "cname": "Kiaasa - West Rohtash Nagar, Shahdara",
+      "latlng": {
+        "lat": 28.68068097,
+        "lng": 77.28665965
+      },
+      "address": "Old No 1480 D, 1/9280, Main Road Janta Block, Shahdara, New Delhi, Delhi - 110032",
+      "locality": "Shahdara, New Delhi",
+      "phone": "+91 93190 08639 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/shahdara-new-delhi-44478/map",
+      "homeurl": "https://stores.kiaasaretail.com/shahdara-new-delhi-44478/home"
+    },
+    {
+      "cname": "Kiaasa - Pacific Mall, Ghaziabad",
+      "latlng": {
+        "lat": 28.64657793,
+        "lng": 77.32005508
+      },
+      "address": "UB 2B , Lower Ground floor Pacific Mall, Kaushambi, Ghaziabad, Uttar Pradesh - 201010",
+      "locality": "Kaushambi, Ghaziabad",
+      "phone": "+91 93190 08663 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kaushambi-ghaziabad-44430/map",
+      "homeurl": "https://stores.kiaasaretail.com/kaushambi-ghaziabad-44430/home"
+    },
+    {
+      "cname": "Kiaasa - Janakpuri, New Delhi",
+      "latlng": {
+        "lat": 28.6217532,
+        "lng": 77.08827051
+      },
+      "address": "G-8 Janak Place, Block C2B, Janakpuri, New Delhi, Delhi - 110058",
+      "locality": "Janakpuri, New Delhi",
+      "phone": "+91 87501 79718 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/janakpuri-new-delhi-43031/map",
+      "homeurl": "https://stores.kiaasaretail.com/janakpuri-new-delhi-43031/home"
+    },
+    {
+      "cname": "Kiaasa - Sarita Vihar, Delhi",
+      "latlng": {
+        "lat": 28.544244,
+        "lng": 77.304572
+      },
+      "address": "G 75, Shop No 3, Lower Ground Floor, Shaheen Bagh, Okhla, New Delhi, Delhi - 110025",
+      "locality": "Okhla, New Delhi",
+      "phone": "+91 93190 08627 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/okhla-new-delhi-44436/map",
+      "homeurl": "https://stores.kiaasaretail.com/okhla-new-delhi-44436/home"
+    },
+    {
+      "cname": "Kiaasa - Mahagun Mall, Ghaziabad",
+      "latlng": {
+        "lat": 28.65055739,
+        "lng": 77.35255498
+      },
+      "address": "Shop No Gf 26, Ground Floor, Mahagun Mall, Vaishali Sector 6, Vaishali, Ghaziabad, Uttar Pradesh - 201012",
+      "locality": "Vaishali, Ghaziabad",
+      "phone": "+91 93190 08662 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/vaishali-ghaziabad-44422/map",
+      "homeurl": "https://stores.kiaasaretail.com/vaishali-ghaziabad-44422/home"
+    },
+    {
+      "cname": "Kiaasa - Rohini, New Delhi",
+      "latlng": {
+        "lat": 28.711894,
+        "lng": 77.1038911
+      },
+      "address": "Shop No 120, First Floor, City Centre Mall, Sector 10, Rohini, New Delhi, Delhi - 110085",
+      "locality": "Rohini, New Delhi",
+      "phone": "+91 93190 08577 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/rohini-new-delhi-44435/map",
+      "homeurl": "https://stores.kiaasaretail.com/rohini-new-delhi-44435/home"
+    },
+    {
+      "cname": "Kiaasa - Shipra Mall, Ghaziabad",
+      "latlng": {
+        "lat": 28.63601181,
+        "lng": 77.36546713
+      },
+      "address": "Shop No 22, 23 Lower Grownd Floor, Shipra Mall Vaibhav Khand, Indrapuram, Ghaziabad, Uttar Pradesh - 201012",
+      "locality": "Indrapuram, Ghaziabad",
+      "phone": "+91 93190 08583 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/indrapuram-ghaziabad-44421/map",
+      "homeurl": "https://stores.kiaasaretail.com/indrapuram-ghaziabad-44421/home"
+    },
+    {
+      "cname": "Kiaasa - Dwarka, New Delhi",
+      "latlng": {
+        "lat": 28.596071,
+        "lng": 77.051496
+      },
+      "address": "Shop No G 03, Ground Floor, Sector 05, Arujun Plaza Building, Dwarka, New Delhi, Delhi - 110075",
+      "locality": "Dwarka, New Delhi",
+      "phone": "+91 93790 08576 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/dwarka-new-delhi-44438/map",
+      "homeurl": "https://stores.kiaasaretail.com/dwarka-new-delhi-44438/home"
+    },
+    {
+      "cname": "Kiaasa - Spectrum Mall, Noida",
+      "latlng": {
+        "lat": 28.5740541,
+        "lng": 77.3767012
+      },
+      "address": "Shop No 22A & 22D, Ground Floor, Spectrum Mall, Sector 76, Noida, Uttar Pradesh - 201301",
+      "locality": "Sector 76, Noida",
+      "phone": "+91 93190 08586 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-76-noida-44429/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-76-noida-44429/home"
+    },
+    {
+      "cname": "Kiaasa - Crown Interiorz Mall, Faridabad",
+      "latlng": {
+        "lat": 28.46987062,
+        "lng": 77.30712049
+      },
+      "address": "Shop No 36, Ground Floor, Crown Interiors Mall, Sector 35, Faridabad, Haryana - 121003",
+      "locality": "Sector 35, Faridabad",
+      "phone": "+91 93190 08659 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-35-faridabad-44434/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-35-faridabad-44434/home"
+    },
+    {
+      "cname": "Kiaasa - DT Mega Mall, DLF Phase 1, Gurugram",
+      "latlng": {
+        "lat": 28.475631,
+        "lng": 77.093184
+      },
+      "address": "A-036, DT Mega Mall, Near DLF Phase 1 Metro Station, DLF Phase 1, Gurugram, Haryana - 122102",
+      "locality": "DLF Phase 1, Gurugram",
+      "phone": "+91 93199 98167 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/dlf-phase-1-gurugram-46383/map",
+      "homeurl": "https://stores.kiaasaretail.com/dlf-phase-1-gurugram-46383/home"
+    },
+    {
+      "cname": "Kiaasa - Gaur City, Greater Noida",
+      "latlng": {
+        "lat": 28.60604453,
+        "lng": 77.42963332
+      },
+      "address": "C 07 Second Floor , Gaur City Mall, Sector 4, Greater Noida, Uttar Pradesh - 201301",
+      "locality": "Sector 4, Greater Noida",
+      "phone": "+91 93190 08656 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-4-greater-noida-44423/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-4-greater-noida-44423/home"
+    },
+    {
+      "cname": "Kiaasa - Model Town, Ghaziabad",
+      "latlng": {
+        "lat": 28.65329149,
+        "lng": 77.43716741
+      },
+      "address": "Building No 150/177, Grand Trunk Road, Model Town, Ghaziabad, Uttar Pradesh - 201001",
+      "locality": "Model Town, Ghaziabad",
+      "phone": "+91 93190 08635 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/model-town-ghaziabad-44420/map",
+      "homeurl": "https://stores.kiaasaretail.com/model-town-ghaziabad-44420/home"
+    },
+    {
+      "cname": "Kiaasa - KW6 Mall, Ghaziabad",
+      "latlng": {
+        "lat": 28.69612464,
+        "lng": 77.43527713
+      },
+      "address": "First Floor F 75 and 74, KW Delhi 6 Mall, Main Road, NH58 Bypass, Raj Nagar Extension, Ghaziabad, Uttar Pradesh - 201017",
+      "locality": "Raj Nagar Extension, Ghaziabad",
+      "phone": "+91 93190 08587 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/raj-nagar-extension-ghaziabad-44428/map",
+      "homeurl": "https://stores.kiaasaretail.com/raj-nagar-extension-ghaziabad-44428/home"
+    },
+    {
+      "cname": "Kiaasa - Joy Central, Gurgaon",
+      "latlng": {
+        "lat": 28.404933249417017,
+        "lng": 77.06083383843271
+      },
+      "address": "Unit No 76, Ground Floor, AIPL Joy Central, Badshahpur, Sector 65, Gurugram, Haryana - 122101",
+      "locality": "Sector 65, Gurugram",
+      "phone": "+91 93199 98169 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-65-gurugram-48139/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-65-gurugram-48139/home"
+    },
+    {
+      "cname": "Kiaasa - World Street Mall, Faridabad",
+      "latlng": {
+        "lat": 28.386784,
+        "lng": 77.353401
+      },
+      "address": "Shop No 76, Omaxe World Street, Sector 79, Faridabad, Haryana - 121004",
+      "locality": "Sector 79, Faridabad",
+      "phone": "+91 81300 48302 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-79-faridabad-44470/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-79-faridabad-44470/home"
+    },
+    {
+      "cname": "Kiaasa - Sector 10, Faridabad",
+      "latlng": {
+        "lat": 28.369349,
+        "lng": 77.327194
+      },
+      "address": "Shop No 932, Sant Surdas Marg, Sector 10, Faridabad, Haryana - 121006",
+      "locality": "Sector 10, Faridabad",
+      "phone": "+91 93190 08668 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-10-faridabad-44439/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-10-faridabad-44439/home"
+    },
+    {
+      "cname": "Kiaasa - Airia Reach Mall, Gurugram",
+      "latlng": {
+        "lat": 28.38327896,
+        "lng": 77.05231658
+      },
+      "address": "Shop No 36, First Floor, Reach Airia Mall, Sector 68, Gurugram, Haryana - 122103",
+      "locality": "Sector 68, Gurugram",
+      "phone": "+91 93190 08617 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-68-gurugram-44433/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-68-gurugram-44433/home"
+    },
+    {
+      "cname": "Kiaasa - Elan Miracle Sector 84, Gurugram",
+      "latlng": {
+        "lat": 28.415313,
+        "lng": 76.962662
+      },
+      "address": "Shop No 68, Ground Floor, Elan Miracle Mall, Sector 84, Gurugram, Haryana - 122004",
+      "locality": "Sector 84, Gurugram",
+      "phone": "+91 93190 08624 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-84-gurugram-44757/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-84-gurugram-44757/home"
+    },
+    {
+      "cname": "Kiaasa - Sadar Bazaar, Meerut",
+      "latlng": {
+        "lat": 28.99556902,
+        "lng": 77.70475175
+      },
+      "address": "38, ABU Lane, Meerut Cantt, Sadar Bazaar, Meerut, Uttar Pradesh - 250001",
+      "locality": "Sadar Bazaar, Meerut",
+      "phone": "+91 93190 08580 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sadar-bazaar-meerut-44425/map",
+      "homeurl": "https://stores.kiaasaretail.com/sadar-bazaar-meerut-44425/home"
+    },
+    {
+      "cname": "Kiaasa - D Park, Rohtak",
+      "latlng": {
+        "lat": 28.88801829,
+        "lng": 76.60835419
+      },
+      "address": "EH 65, Ward No 10, Opposite Jeewan Mala, Near D Park , Dariyao Nagar, Rohtak, Haryana - 124001",
+      "locality": "Dariyao Nagar, Rohtak",
+      "phone": "+91 93190 08570 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/dariyao-nagar-rohtak-44417/map",
+      "homeurl": "https://stores.kiaasaretail.com/dariyao-nagar-rohtak-44417/home"
+    },
+    {
+      "cname": "Kiaasa - Avtar Colony, Karnal",
+      "latlng": {
+        "lat": 29.6910744,
+        "lng": 76.99265522
+      },
+      "address": "SC 02, Plot No 1/B-357, Lower Ground Floor, Shri Sai Building, Kunjpura Road, Avtar Colony, Karnal, Haryana - 132001",
+      "locality": "Avtar Colony, Karnal",
+      "phone": "+91 93190 08618 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/avtar-colony-karnal-43024/map",
+      "homeurl": "https://stores.kiaasaretail.com/avtar-colony-karnal-43024/home"
+    },
+    {
+      "cname": "Kiaasa - Sector 7, Alwar",
+      "latlng": {
+        "lat": 27.559292,
+        "lng": 76.611695
+      },
+      "address": "Shop No 1,2,9 , Ground Floor, Supreme Market , Nan Gali Circle, Sector 7, Alwar, Rajasthan - 301001",
+      "locality": "Sector 7, Alwar",
+      "phone": "+91 93192 70264 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sector-7-alwar-44268/map",
+      "homeurl": "https://stores.kiaasaretail.com/sector-7-alwar-44268/home"
+    },
+    {
+      "cname": "Kiaasa - Krishna Nagar, Mathura",
+      "latlng": {
+        "lat": 27.49779654,
+        "lng": 77.66998611
+      },
+      "address": "Shop No 99, Block C, Bhuteshwar Road, Krishna Nagar, Mathura, Uttar Pradesh - 281001",
+      "locality": "Krishna Nagar, Mathura",
+      "phone": "+91 93190 08589 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/krishna-nagar-mathura-44405/map",
+      "homeurl": "https://stores.kiaasaretail.com/krishna-nagar-mathura-44405/home"
+    },
+    {
+      "cname": "Kiaasa - Kanth Road, Moradabad",
+      "latlng": {
+        "lat": 28.862472,
+        "lng": 78.748
+      },
+      "address": "Kanth Road, Near Gautam Petrol Pump PAC, Adarsh Colony, Moradabad, Uttar Pradesh - 244001",
+      "locality": "Adarsh Colony, Moradabad",
+      "phone": "+91 93199 08608 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/adarsh-colony-moradabad-47532/map",
+      "homeurl": "https://stores.kiaasaretail.com/adarsh-colony-moradabad-47532/home"
+    },
+    {
+      "cname": "Kiaasa - Eminent Mall, Hisar",
+      "latlng": {
+        "lat": 29.15715768,
+        "lng": 75.721613
+      },
+      "address": "Ground Floor, Adjoining Burger King, Eminent Mall, Cinema Site, Red Square Market, Mehta Nagar, Hisar, Haryana - 125001",
+      "locality": "Mehta Nagar, Hisar",
+      "phone": "+91 93190 08660 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/mehta-nagar-hisar-43006/map",
+      "homeurl": "https://stores.kiaasaretail.com/mehta-nagar-hisar-43006/home"
+    },
+    {
+      "cname": "Kiaasa - Sikandra, Agra",
+      "latlng": {
+        "lat": 27.20301683,
+        "lng": 77.95207892
+      },
+      "address": "Shop No 2, Plot No 88, Dream Complex, Opposite PC Jewellers, Sikandra, Agra, Uttar Pradesh - 282007",
+      "locality": "Sikandra, Agra",
+      "phone": "+91 93190 08680 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sikandra-agra-44406/map",
+      "homeurl": "https://stores.kiaasaretail.com/sikandra-agra-44406/home"
+    },
+    {
+      "cname": "Kiaasa - Pearl Mall, Agra",
+      "latlng": {
+        "lat": 27.20617241,
+        "lng": 77.97269587
+      },
+      "address": "Shop No G03, Ground Floor, Paras Pearl Mall, Deendayal Upadhyay Puram, Sector 12A, Avas Vikas Colony, Agra, Uttar Pradesh - 282007",
+      "locality": "Avas Vikas Colony, Agra",
+      "phone": "+91 93192 70377 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/avas-vikas-colony-agra-43004/map",
+      "homeurl": "https://stores.kiaasaretail.com/avas-vikas-colony-agra-43004/home"
+    },
+    {
+      "cname": "Kiaasa - Kamla Nagar, Agra",
+      "latlng": {
+        "lat": 27.21484344,
+        "lng": 78.02083196
+      },
+      "address": "Main Market, Opposite Dr. Rajiv Mangal, Kamla Nagar, Agra, Uttar Pradesh - 282004",
+      "locality": "Kamla Nagar, Agra",
+      "phone": "+91 98371 43355 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kamla-nagar-agra-44407/map",
+      "homeurl": "https://stores.kiaasaretail.com/kamla-nagar-agra-44407/home"
+    },
+    {
+      "cname": "Kiaasa - Mall Of Dehradun, Dehradun",
+      "latlng": {
+        "lat": 30.26686934,
+        "lng": 78.08200734
+      },
+      "address": "Shop No SH/2F/17, Mall Of Dehradun, Mohkam Pur Khurd, Dehradun, Uttarakhand - 248005",
+      "locality": "Mohkam Pur Khurd, Dehradun",
+      "phone": "+91 93192 70369 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/mohkam-pur-khurd-dehradun-43007/map",
+      "homeurl": "https://stores.kiaasaretail.com/mohkam-pur-khurd-dehradun-43007/home"
+    },
+    {
+      "cname": "Kiaasa - Paltan Bazaar, Dehradun",
+      "latlng": {
+        "lat": 30.3234707,
+        "lng": 78.0384816
+      },
+      "address": "Shop No 20, Ghanta Ghar, Paltan Bazaar, Paltan Bazaar, Dehradun, Uttarakhand - 248001",
+      "locality": "Paltan Bazaar, Dehradun",
+      "phone": "+91 93190 08588 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/paltan-bazaar-dehradun-43001/map",
+      "homeurl": "https://stores.kiaasaretail.com/paltan-bazaar-dehradun-43001/home"
+    },
+    {
+      "cname": "Kiaasa - Rudrapur, Udham Singh Nagar",
+      "latlng": {
+        "lat": 29.00178917,
+        "lng": 79.39966573
+      },
+      "address": "Shop No 13, Upper Ground Floor, Metropolis Mall , Nainital Road, Rudrapur, Udham Singh Nagar, Uttarakhand - 244923",
+      "locality": "Rudrapur, Udham Singh Nagar",
+      "phone": "+91 70175 94174 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/rudrapur-udham-singh-nagar-43000/map",
+      "homeurl": "https://stores.kiaasaretail.com/rudrapur-udham-singh-nagar-43000/home"
+    },
+    {
+      "cname": "Kiaasa - DD Puram, Bareilly",
+      "latlng": {
+        "lat": 28.38022912,
+        "lng": 79.43311707
+      },
+      "address": "Shop No 12, Gangour Sweets, DD Puram, Bareilly, Uttar Pradesh - 243005",
+      "locality": "DD Puram, Bareilly",
+      "phone": "+91 93192 70384 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/dd-puram-bareilly-43037/map",
+      "homeurl": "https://stores.kiaasaretail.com/dd-puram-bareilly-43037/home"
+    },
+    {
+      "cname": "Kiaasa - Phoenix United Mall, Bareilly",
+      "latlng": {
+        "lat": 28.39508866,
+        "lng": 79.4572191
+      },
+      "address": "Unit No F 09-A, First Floor, Phoenix United Mall, Pilibhit Bypass Road, Mahanagar Colony, Bareilly, Uttar Pradesh - 243122",
+      "locality": "Mahanagar Colony, Bareilly",
+      "phone": "+91 93190 08637 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/mahanagar-colony-bareilly-42999/map",
+      "homeurl": "https://stores.kiaasaretail.com/mahanagar-colony-bareilly-42999/home"
+    },
+    {
+      "cname": "Kiaasa - Cosmo Mall, Zirakpur",
+      "latlng": {
+        "lat": 30.6371235,
+        "lng": 76.8193408
+      },
+      "address": "SCO-7B, Lower Ground Floor, Cosmo Mall, VIP Road, Zirakpur, SAS Nagar, Punjab - 140603",
+      "locality": "Zirakpur, SAS Nagar",
+      "phone": "+91 93192 70256 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/zirakpur-sas-nagar-47450/map",
+      "homeurl": "https://stores.kiaasaretail.com/zirakpur-sas-nagar-47450/home"
+    },
+    {
+      "cname": "Kiaasa - Orbit Signature Walk Mall, Mohali",
+      "latlng": {
+        "lat": 30.638819,
+        "lng": 76.821115
+      },
+      "address": "Shop No 08, Upper Ground Floor, Orbit Signature Walk, VIP Road, Zirakpur, Mohali, Punjab - 140603",
+      "locality": "Zirakpur, Mohali",
+      "phone": "+91 93192 70256 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/zirakpur-mohali-44755/map",
+      "homeurl": "https://stores.kiaasaretail.com/zirakpur-mohali-44755/home"
+    },
+    {
+      "cname": "Kiaasa - Sunny Enclave, Zirakpur",
+      "latlng": {
+        "lat": 30.66037324,
+        "lng": 76.82207473
+      },
+      "address": "Shop No 37, Paras Down Town Square Mall, Zirakpur, Mohali, Punjab - 140603",
+      "locality": "Zirakpur, Mohali",
+      "phone": "+91 93190 08622 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/zirakpur-mohali-44480/map",
+      "homeurl": "https://stores.kiaasaretail.com/zirakpur-mohali-44480/home"
+    },
+    {
+      "cname": "Kiaasa - Sadar, Mansa",
+      "latlng": {
+        "lat": 29.98201941,
+        "lng": 75.40349454
+      },
+      "address": "Bachena Ram Krishna Chand, Old Grain Market, Sadar, Mansa, Punjab - 151505",
+      "locality": "Sadar, Mansa",
+      "phone": "+91 79867 29421 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sadar-mansa-43036/map",
+      "homeurl": "https://stores.kiaasaretail.com/sadar-mansa-43036/home"
+    },
+    {
+      "cname": "Kiaasa - Jyothi Nagar, Jaipur",
+      "latlng": {
+        "lat": 26.89450702730714,
+        "lng": 75.79544834316924
+      },
+      "address": "24-k-1 , Jyoti Nagar Housing, Board Colony, Pankaj Singhavi Marg, Jyothi Nagar, Jaipur, Rajasthan - 302005",
+      "locality": "Jyothi Nagar, Jaipur",
+      "phone": "+91 93192 70265 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/jyothi-nagar-jaipur-44269/map",
+      "homeurl": "https://stores.kiaasaretail.com/jyothi-nagar-jaipur-44269/home"
+    },
+    {
+      "cname": "Kiaasa - Gunjan Tower, Haldwani",
+      "latlng": {
+        "lat": 29.2435756,
+        "lng": 79.5329452
+      },
+      "address": "Shop No 2, Lower Ground Floor, Ganga Godavari Enclave, Gunjan Tower, Teeripulia, Tulsi Nagar, Kathgodam, Haldwani, Nanital, Uttarakhand - 263126",
+      "locality": "Haldwani, Nanital",
+      "phone": "+91 93199 98265 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/haldwani-nanital-48093/map",
+      "homeurl": "https://stores.kiaasaretail.com/haldwani-nanital-48093/home"
+    },
+    {
+      "cname": "Kiaasa - Vaishali Nagar, Jaipur",
+      "latlng": {
+        "lat": 26.912084142802456,
+        "lng": 75.75251204965114
+      },
+      "address": "Shop No 14, 15, 21, 22, Rathore Nagar, Queens Road, Queen Corner, Vaishali Nagar, Jaipur, Rajasthan - 302021",
+      "locality": "Vaishali Nagar, Jaipur",
+      "phone": "+91 93192 70378 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/vaishali-nagar-jaipur-44447/map",
+      "homeurl": "https://stores.kiaasaretail.com/vaishali-nagar-jaipur-44447/home"
+    },
+    {
+      "cname": "Kiaasa - Patel Nagar, Barnala",
+      "latlng": {
+        "lat": 30.36928821,
+        "lng": 75.54394306
+      },
+      "address": "Shop No 13, Ground Floor, Pakka College Road, Patel Nagar, Barnala, Punjab - 148101",
+      "locality": "Patel Nagar, Barnala",
+      "phone": "+91 93192 70367 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/patel-nagar-barnala-43025/map",
+      "homeurl": "https://stores.kiaasaretail.com/patel-nagar-barnala-43025/home"
+    },
+    {
+      "cname": "Kiaasa - Bhucho Kalan, Bathinda",
+      "latlng": {
+        "lat": 30.22492601,
+        "lng": 75.06477224
+      },
+      "address": "Shop No 153, Ground Floor, NH 7, Factory Outlet, Bhucho Kalan, Bathinda, Punjab - 151101",
+      "locality": "Bhucho Kalan, Bathinda",
+      "phone": "+91 93190 08644 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/bhucho-kalan-bathinda-44416/map",
+      "homeurl": "https://stores.kiaasaretail.com/bhucho-kalan-bathinda-44416/home"
+    },
+    {
+      "cname": "Kiaasa - Avas Vikas, Shahjahanpur",
+      "latlng": {
+        "lat": 27.85488708,
+        "lng": 79.89074929
+      },
+      "address": "Shop No 36, Ashram Bazar, Opposite Hotel Grand Arc, Avas Vikas, Shahjahanpur, Uttar Pradesh - 242226",
+      "locality": "Avas Vikas, Shahjahanpur",
+      "phone": "+91 93190 08677 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/avas-vikas-shahjahanpur-44413/map",
+      "homeurl": "https://stores.kiaasaretail.com/avas-vikas-shahjahanpur-44413/home"
+    },
+    {
+      "cname": "Kiaasa - Sadar Bazar, Shahjahanpur",
+      "latlng": {
+        "lat": 27.8870843,
+        "lng": 79.9149834
+      },
+      "address": "Near Chandna Bakery, In Front Of Mission School, Govind Ganj, Sadar Bazar, Shahjahanpur, Uttar Pradesh - 242001",
+      "locality": "Sadar Bazar, Shahjahanpur",
+      "phone": "+91 93192 70364 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sadar-bazar-shahjahanpur-43035/map",
+      "homeurl": "https://stores.kiaasaretail.com/sadar-bazar-shahjahanpur-43035/home"
+    },
+    {
+      "cname": "Kiaasa - Mittal Mall, Bathinda",
+      "latlng": {
+        "lat": 30.230555,
+        "lng": 74.935598
+      },
+      "address": "Shop No 0126, First Floor, Mittal Mall, Vishal Nagar, Bathinda, Punjab - 151101",
+      "locality": "Vishal Nagar, Bathinda",
+      "phone": "+91 93190 08628 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/vishal-nagar-bathinda-44475/map",
+      "homeurl": "https://stores.kiaasaretail.com/vishal-nagar-bathinda-44475/home"
+    },
+    {
+      "cname": "Kiaasa - MBD Mall, Ludhiana",
+      "latlng": {
+        "lat": 30.89168803,
+        "lng": 75.80238092
+      },
+      "address": "Shop LGF 05, MBD Neopolis, Ferozepur Road, Rajguru Nagar, Ludhiana, Punjab - 141012",
+      "locality": "Rajguru Nagar, Ludhiana",
+      "phone": "+91 93190 08581 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/rajguru-nagar-ludhiana-44415/map",
+      "homeurl": "https://stores.kiaasaretail.com/rajguru-nagar-ludhiana-44415/home"
+    },
+    {
+      "cname": "Kiaasa - Satipura, Hanumangarh",
+      "latlng": {
+        "lat": 29.58732101,
+        "lng": 74.32271816
+      },
+      "address": "Shop No 63, 64, SLG Alpha Market, Baypass Town, Hissariya Hospital, Satipura, Hanumangarh, Rajasthan - 335513",
+      "locality": "Satipura, Hanumangarh",
+      "phone": "+91 93192 70312 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/satipura-hanumangarh-44103/map",
+      "homeurl": "https://stores.kiaasaretail.com/satipura-hanumangarh-44103/home"
+    },
+    {
+      "cname": "Kiaasa - City Centre Market, Hanumangarh",
+      "latlng": {
+        "lat": 29.59611765,
+        "lng": 74.31088121
+      },
+      "address": "Shop No 7, City Center Malll, Town Junction Road, Puran Nagar, Hanumangarh, Rajasthan - 335512",
+      "locality": "Puran Nagar, Hanumangarh",
+      "phone": "+91 93190 90609 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/puran-nagar-hanumangarh-44468/map",
+      "homeurl": "https://stores.kiaasaretail.com/puran-nagar-hanumangarh-44468/home"
+    },
+    {
+      "cname": "Kiaasa - Ram Nagar, Una",
+      "latlng": {
+        "lat": 31.46689862,
+        "lng": 76.26600067
+      },
+      "address": "Ward No 2, Main Bazar Road, Ram Nagar, Una, Himachal Pradesh - 174303",
+      "locality": "Ram Nagar, Una",
+      "phone": "+91 93190 08654 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ram-nagar-una-43005/map",
+      "homeurl": "https://stores.kiaasaretail.com/ram-nagar-una-43005/home"
+    },
+    {
+      "cname": "Kiaasa - Central Plaza, Shri Muktsar Sahib",
+      "latlng": {
+        "lat": 30.4769982,
+        "lng": 74.5381264
+      },
+      "address": "E 10, Ground Floor, Central Plaza, Bathinda Bypass Road, Guru Angad Dev Nagar, Muktsar, Punjab - 152026",
+      "locality": "Guru Angad Dev Nagar, Muktsar",
+      "phone": "+91 93199 98204 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/guru-angad-dev-nagar-muktsar-46607/map",
+      "homeurl": "https://stores.kiaasaretail.com/guru-angad-dev-nagar-muktsar-46607/home"
+    },
+    {
+      "cname": "Kiaasa - Mittal Mall, Hathai Bhata, Ajmer",
+      "latlng": {
+        "lat": 26.4630717,
+        "lng": 74.6336406
+      },
+      "address": "S-23, Second Floor, Mittal Mall, Prithvi Raj Marg, Hathi Bhata, Ajmer, Rajasthan - 305001",
+      "locality": "Hathi Bhata, Ajmer",
+      "phone": "+91 93199 98166 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/hathi-bhata-ajmer-46382/map",
+      "homeurl": "https://stores.kiaasaretail.com/hathi-bhata-ajmer-46382/home"
+    },
+    {
+      "cname": "Kiaasa - Old Dhan Mandir, Sri Ganganagar",
+      "latlng": {
+        "lat": 29.93004724,
+        "lng": 73.87177733
+      },
+      "address": "Plot No 28/3/4/5, Gandhi Chowk , Gol Bazar Road, Old Dhan Mandir, Sri Ganganagar, Rajasthan - 335001",
+      "locality": "Old Dhan Mandir, Sri Ganganagar",
+      "phone": "+91 93190 08621 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/old-dhan-mandir-sri-ganganagar-43022/map",
+      "homeurl": "https://stores.kiaasaretail.com/old-dhan-mandir-sri-ganganagar-43022/home"
+    },
+    {
+      "cname": "Kiaasa - Maharaj Nagar, Lakhimpur",
+      "latlng": {
+        "lat": 27.94583541,
+        "lng": 80.77878394
+      },
+      "address": "Dharamshala Chawraha, Near Ashirwad Hotel, Maharaj Nagar, Lakhimpur, Uttar Pradesh - 262701",
+      "locality": "Maharaj Nagar, Lakhimpur",
+      "phone": "+91 76680 96789 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/maharaj-nagar-lakhimpur-44467/map",
+      "homeurl": "https://stores.kiaasaretail.com/maharaj-nagar-lakhimpur-44467/home"
+    },
+    {
+      "cname": "Kiaasa - Patel Nagar, Orai",
+      "latlng": {
+        "lat": 25.997777,
+        "lng": 79.46128
+      },
+      "address": "First Floor, Radiant Terrace, Near Deepshikha Hotel, Kalpi Road, In front of 132 KV Substation, Patel Nagar, Orai, Uttar Pradesh - 285001",
+      "locality": "Patel Nagar, Orai",
+      "phone": "+91 99198 00201 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/patel-nagar-orai-44756/map",
+      "homeurl": "https://stores.kiaasaretail.com/patel-nagar-orai-44756/home"
+    },
+    {
+      "cname": "Kiaasa - Z Square Mall, Kanpur",
+      "latlng": {
+        "lat": 26.47327232,
+        "lng": 80.3528141
+      },
+      "address": "Shop No G-12, 16/113, Z Square Mall, Mall Road, Civil Lines, Kanpur, Uttar Pradesh - 208001",
+      "locality": "Civil Lines, Kanpur",
+      "phone": "+91 93192 70330 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/civil-lines-kanpur-42998/map",
+      "homeurl": "https://stores.kiaasaretail.com/civil-lines-kanpur-42998/home"
+    },
+    {
+      "cname": "Kiaasa - Batala, Gurdaspur",
+      "latlng": {
+        "lat": 31.810822,
+        "lng": 75.207382
+      },
+      "address": "B-XVIII-174, Outside Puriya Mohalla, Circular Road, Near Sekhri Kothi, Batala, Gurdaspur, Punjab - 143505",
+      "locality": "Batala, Gurdaspur",
+      "phone": "+91 93199 98205 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/batala-gurdaspur-47869/map",
+      "homeurl": "https://stores.kiaasaretail.com/batala-gurdaspur-47869/home"
+    },
+    {
+      "cname": "Kiaasa - Joshi Colony, Amritsar",
+      "latlng": {
+        "lat": 31.64487232,
+        "lng": 74.87733731
+      },
+      "address": "Shop No 10B, Near Octave Store, Lawrence Road, Opposite Selection Point, Joshi Colony, Amritsar, Punjab - 143001",
+      "locality": "Joshi Colony, Amritsar",
+      "phone": "+91 93190 08575 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/joshi-colony-amritsar-43021/map",
+      "homeurl": "https://stores.kiaasaretail.com/joshi-colony-amritsar-43021/home"
+    },
+    {
+      "cname": "Kiaasa – Phoenix United Mall, LDA Colony, Lucknow",
+      "latlng": {
+        "lat": 26.798482,
+        "lng": 80.896961
+      },
+      "address": "Plot No CP-08, Unit No 09, Second Floor, Phoenix United, Kanpur Road, Sector B, LDA Colony, Lucknow, Uttar Pradesh - 226012",
+      "locality": "LDA Colony, Lucknow",
+      "phone": "+91 88401 04004 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/lda-colony-lucknow-46386/map",
+      "homeurl": "https://stores.kiaasaretail.com/lda-colony-lucknow-46386/home"
+    },
+    {
+      "cname": "Kiaasa - Ashiyana Colony, Lucknow",
+      "latlng": {
+        "lat": 26.793538136296117,
+        "lng": 80.91251632366482
+      },
+      "address": "K 710, Sector K, Ashiyana Colony, Lucknow, Uttar Pradesh - 226012",
+      "locality": "Ashiyana Colony, Lucknow",
+      "phone": "+91 99364 24524 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ashiyana-colony-lucknow-44354/map",
+      "homeurl": "https://stores.kiaasaretail.com/ashiyana-colony-lucknow-44354/home"
+    },
+    {
+      "cname": "Kiaasa - Sadar Bazar, Gurdaspur",
+      "latlng": {
+        "lat": 32.03934709,
+        "lng": 75.40061425
+      },
+      "address": "Ground Floor, Androon Bazar, Near Gyan Halwai, Sadar Bazar, Gurdaspur, Punjab - 143521",
+      "locality": "Sadar Bazar, Gurdaspur",
+      "phone": "+91 93192 70365 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sadar-bazar-gurdaspur-44418/map",
+      "homeurl": "https://stores.kiaasaretail.com/sadar-bazar-gurdaspur-44418/home"
+    },
+    {
+      "cname": "Kiaasa - Civil Lines, Gurdaspur",
+      "latlng": {
+        "lat": 32.042086,
+        "lng": 75.407061
+      },
+      "address": "Shop No 10, Court Road, Civil Lines, Gurdaspur, Punjab - 143521",
+      "locality": "Civil Lines, Gurdaspur",
+      "phone": "+91 93190 08614 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/civil-lines-gurdaspur-44754/map",
+      "homeurl": "https://stores.kiaasaretail.com/civil-lines-gurdaspur-44754/home"
+    },
+    {
+      "cname": "Kiaasa - Wave Mall, Lucknow",
+      "latlng": {
+        "lat": 26.87013248,
+        "lng": 80.99731669
+      },
+      "address": "Shop No 16A, Ground Floor, Wave Mall, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+      "locality": "Gomti Nagar, Lucknow",
+      "phone": "+91 88401 04004 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gomti-nagar-lucknow-44412/map",
+      "homeurl": "https://stores.kiaasaretail.com/gomti-nagar-lucknow-44412/home"
+    },
+    {
+      "cname": "Kiaasa - Crown Mall, Chinhat, Lucknow",
+      "latlng": {
+        "lat": 26.888985,
+        "lng": 81.055008
+      },
+      "address": "Shop No 109B, First Floor, Crown Mall, Ayodhya Road, Chinhat, Lucknow, Uttar Pradesh - 226028",
+      "locality": "Chinhat, Lucknow",
+      "phone": "+91 93199 98201 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/chinhat-lucknow-46381/map",
+      "homeurl": "https://stores.kiaasaretail.com/chinhat-lucknow-46381/home"
+    },
+    {
+      "cname": "Kiaasa - Lulu Mall, Lucknow",
+      "latlng": {
+        "lat": 26.78452938780588,
+        "lng": 80.99134225026998
+      },
+      "address": "Plot No T5,T4A, First Floor, Lulu Mall, Shaheed Path, Golf City, Lucknow, Uttar Pradesh - 226030",
+      "locality": "Golf City, Lucknow",
+      "phone": "+91 93190 08675 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/golf-city-lucknow-44411/map",
+      "homeurl": "https://stores.kiaasaretail.com/golf-city-lucknow-44411/home"
+    },
+    {
+      "cname": "Kiaasa - Phoenix Palasso Mall, Lucknow",
+      "latlng": {
+        "lat": 26.80926529,
+        "lng": 81.0129244
+      },
+      "address": "Phoenix Palasso Mall, Amar Shaheed Path, Sector 7, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+      "locality": "Gomti Nagar, Lucknow",
+      "phone": "+91 93190 08571 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gomti-nagar-lucknow-44410/map",
+      "homeurl": "https://stores.kiaasaretail.com/gomti-nagar-lucknow-44410/home"
+    },
+    {
+      "cname": "Kiaasa - Novelty Mall, Pathankot",
+      "latlng": {
+        "lat": 32.27528788,
+        "lng": 75.69749533
+      },
+      "address": "Fisrt Floor 108, Novelty Mall, Dalhousie Road, Mamun, Pathankot, Punjab - 145001",
+      "locality": "Mamun, Pathankot",
+      "phone": "+91 93190 08592 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/mamun-pathankot-43023/map",
+      "homeurl": "https://stores.kiaasaretail.com/mamun-pathankot-43023/home"
+    },
+    {
+      "cname": "Kiaasa – Narayanpura, Chhatarpur",
+      "latlng": {
+        "lat": 24.9201934,
+        "lng": 79.5835518
+      },
+      "address": "Shop No 7, Apollo Crossroad, Bus Stand, Narayanpura, Chhatarpur, Madhya Pradesh - 471001",
+      "locality": "Narayanpura, Chhatarpur",
+      "phone": "+91 93199 98168 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/narayanpura-chhatarpur-46385/map",
+      "homeurl": "https://stores.kiaasaretail.com/narayanpura-chhatarpur-46385/home"
+    },
+    {
+      "cname": "Kiaasa - Padmini Mall, Chittorgarh",
+      "latlng": {
+        "lat": 24.8823326,
+        "lng": 74.635222
+      },
+      "address": "LGF 03 and 04, Padmini Mall, Gandhi Nagar, Chittorgarh, Rajasthan - 312001",
+      "locality": "Gandhi Nagar, Chittorgarh",
+      "phone": "+91 93190 08623 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gandhi-nagar-chittorgarh-44446/map",
+      "homeurl": "https://stores.kiaasaretail.com/gandhi-nagar-chittorgarh-44446/home"
+    },
+    {
+      "cname": "Kiaasa - Sardarpura, Jodhpur",
+      "latlng": {
+        "lat": 26.27373684,
+        "lng": 73.00809008
+      },
+      "address": "Plot No 675/A/1, 11th C Road, Sardarpura, Jodhpur, Rajasthan - 342003",
+      "locality": "Sardarpura, Jodhpur",
+      "phone": "+91 93192 70327 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sardarpura-jodhpur-43028/map",
+      "homeurl": "https://stores.kiaasaretail.com/sardarpura-jodhpur-43028/home"
+    },
+    {
+      "cname": "Kiaasa - Wave Mall, Jammu",
+      "latlng": {
+        "lat": 32.70334569,
+        "lng": 74.88140998
+      },
+      "address": "Shop No 5 A, First Floor, Wave Mall, Opp Bathindi Road, Trikuta Nagar, Jammu, Jammu and Kashmir - 180012",
+      "locality": "Trikuta Nagar, Jammu",
+      "phone": "+91 93190 08596 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/trikuta-nagar-jammu-44414/map",
+      "homeurl": "https://stores.kiaasaretail.com/trikuta-nagar-jammu-44414/home"
+    },
+    {
+      "cname": "Kiaasa - Apsara Road, Jammu",
+      "latlng": {
+        "lat": 32.69905836,
+        "lng": 74.85813927
+      },
+      "address": "Apsara Road, Adjacent to Apsara Theater, Gandhi Nagar, Jammu, Jammu and Kashmir - 180004",
+      "locality": "Gandhi Nagar, Jammu",
+      "phone": "+91 96223 54996 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gandhi-nagar-jammu-44469/map",
+      "homeurl": "https://stores.kiaasaretail.com/gandhi-nagar-jammu-44469/home"
+    },
+    {
+      "cname": "Kiaasa - GSS Road, Jammu",
+      "latlng": {
+        "lat": 32.726787,
+        "lng": 74.856732
+      },
+      "address": "Ground Floor, Mohalla Kanji House, Gurudware Sunder Singh Road, Hotel New Swastik, Opposite Hans Raj Park, Ward No 7, Resham Ghar Colony, Jammu, Jammu and Kashmir - 180001",
+      "locality": "Resham Ghar Colony, Jammu",
+      "phone": "+91 93199 98264 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/resham-ghar-colony-jammu-48099/map",
+      "homeurl": "https://stores.kiaasaretail.com/resham-ghar-colony-jammu-48099/home"
+    },
+    {
+      "cname": "Kiaasa Rekab Ganj, Ayodhya",
+      "latlng": {
+        "lat": 26.7783147,
+        "lng": 82.1358463
+      },
+      "address": "Ground Floor, 145 Sector K, Rekab Ganj, Ayodhya, Faizabad, Uttar Pradesh - 224001",
+      "locality": "Ayodhya, Faizabad",
+      "phone": "+91 93199 98259 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ayodhya-faizabad-47451/map",
+      "homeurl": "https://stores.kiaasaretail.com/ayodhya-faizabad-47451/home"
+    },
+    {
+      "cname": "Kiaasa - Makroniya, Sagar",
+      "latlng": {
+        "lat": 23.84953354,
+        "lng": 78.78324845
+      },
+      "address": "Civil Lines Main Road, Near Hotel Crwon Palace, Beside Shankar Palace, Makroniya, Sagar, Madhya Pradesh - 470001",
+      "locality": "Makroniya, Sagar",
+      "phone": "+91 93192 70375 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/makroniya-sagar-43009/map",
+      "homeurl": "https://stores.kiaasaretail.com/makroniya-sagar-43009/home"
+    },
+    {
+      "cname": "Kiaasa - Ten Square Arera Colony",
+      "latlng": {
+        "lat": 23.213639242219983,
+        "lng": 77.43639883581702
+      },
+      "address": "Shop No G1, E-4/41, The Ten Square, Opposite Anushree Hospital, Arera Colony, Bhopal, Madhya Pradesh - 462016",
+      "locality": "Arera Colony, Bhopal",
+      "phone": "+91 93190 90609 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/arera-colony-bhopal-47350/map",
+      "homeurl": "https://stores.kiaasaretail.com/arera-colony-bhopal-47350/home"
+    },
+    {
+      "cname": "Kiaasa - Ishwar Nagar, Bhopal",
+      "latlng": {
+        "lat": 23.193186449792922,
+        "lng": 77.43853203516743
+      },
+      "address": "E8/04, BDA Colony, Ishwar Nagar, Shahpura, Bhopal, Madhya Pradesh - 462039",
+      "locality": "Shahpura, Bhopal",
+      "phone": "+91 93197 05566 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/shahpura-bhopal-44353/map",
+      "homeurl": "https://stores.kiaasaretail.com/shahpura-bhopal-44353/home"
+    },
+    {
+      "cname": "Kiaasa - Lalita Nagar, Bhopal",
+      "latlng": {
+        "lat": 23.1616705,
+        "lng": 77.41420752
+      },
+      "address": "MG Towers, Lalita Nagar, Kolar Road, Lalita Nagar, Bhopal, Madhya Pradesh - 462042",
+      "locality": "Lalita Nagar, Bhopal",
+      "phone": "+91 93192 70376 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/lalita-nagar-bhopal-43027/map",
+      "homeurl": "https://stores.kiaasaretail.com/lalita-nagar-bhopal-43027/home"
+    },
+    {
+      "cname": "Kiaasa - Narendra Nagar, Rewa",
+      "latlng": {
+        "lat": 24.53785892,
+        "lng": 81.29500247
+      },
+      "address": "Shop No 2, B Block, Shilpi Plaza Road, Narendra Nagar, Rewa, Madhya Pradesh - 486001",
+      "locality": "Narendra Nagar, Rewa",
+      "phone": "+91 93190 08636 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/narendra-nagar-rewa-43008/map",
+      "homeurl": "https://stores.kiaasaretail.com/narendra-nagar-rewa-43008/home"
+    },
+    {
+      "cname": "Kiaasa - Vikram Tower, Rewa",
+      "latlng": {
+        "lat": 24.54454007,
+        "lng": 81.30925535
+      },
+      "address": "Shop No 2, Vikram Tower , Allahabad Road, Hari Bhushan Nagar, Rewa, Madhya Pradesh - 486001",
+      "locality": "Hari Bhushan Nagar, Rewa",
+      "phone": "+91 93192 70368 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/hari-bhushan-nagar-rewa-44444/map",
+      "homeurl": "https://stores.kiaasaretail.com/hari-bhushan-nagar-rewa-44444/home"
+    },
+    {
+      "cname": "Kiaasa - Malviya Nagar, Mirzapur",
+      "latlng": {
+        "lat": 25.1508391,
+        "lng": 82.5615413
+      },
+      "address": "Building No. 1/37, Ground Floor, Pasarhatta Bazar, Pakka Ghat, Trimohani, Mirzapur, Uttar Pradesh - 231001",
+      "locality": "Trimohani, Mirzapur",
+      "phone": "+91 93190 08611 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/trimohani-mirzapur-44409/map",
+      "homeurl": "https://stores.kiaasaretail.com/trimohani-mirzapur-44409/home"
+    },
+    {
+      "cname": "Kiaasa - Supreme World, Sidhi",
+      "latlng": {
+        "lat": 24.40683205,
+        "lng": 81.88092026
+      },
+      "address": "Gandhi Chowk, Gurudwara Road, Ward No 10, Sidhi, Madhya Pradesh - 486661",
+      "locality": "Ward No 10, Sidhi",
+      "phone": "+91 77479 98877 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ward-no-10-sidhi-44471/map",
+      "homeurl": "https://stores.kiaasaretail.com/ward-no-10-sidhi-44471/home"
+    },
+    {
+      "cname": "Kiaasa - Marhatal, Jabalpur",
+      "latlng": {
+        "lat": 23.16550996,
+        "lng": 79.93491376
+      },
+      "address": "Shop No 3 & 4, SK Shopping Center, Naudra Bridge Road, Marhatal, Jabalpur, Madhya Pradesh - 482002",
+      "locality": "Marhatal, Jabalpur",
+      "phone": "+91 93192 70380 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/marhatal-jabalpur-43011/map",
+      "homeurl": "https://stores.kiaasaretail.com/marhatal-jabalpur-43011/home"
+    },
+    {
+      "cname": "Kiaasa - Indore",
+      "latlng": {
+        "lat": 22.74640389,
+        "lng": 75.9367931
+      },
+      "address": "Survey No 248/1/1, Unit No F 10, Next to Mumbai-Agra Highway, Khajrana, Indore, Madhya Pradesh - 452016",
+      "locality": "Khajrana, Indore",
+      "phone": "+91 93190 08640 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/khajrana-indore-44441/map",
+      "homeurl": "https://stores.kiaasaretail.com/khajrana-indore-44441/home"
+    },
+    {
+      "cname": "Kiaasa - Gorakpur, Jabalpur",
+      "latlng": {
+        "lat": 23.15255996,
+        "lng": 79.93286455
+      },
+      "address": "Shop No New 389/603/1, Ronak Complex, Howbag, Near Jagat Mall, Gorakpur, Jabalpur, Madhya Pradesh - 482001",
+      "locality": "Gorakpur, Jabalpur",
+      "phone": "+91 93190 08645 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gorakpur-jabalpur-44442/map",
+      "homeurl": "https://stores.kiaasaretail.com/gorakpur-jabalpur-44442/home"
+    },
+    {
+      "cname": "Kiaasa - C21 Mall, Indore",
+      "latlng": {
+        "lat": 22.74401027,
+        "lng": 75.8945628
+      },
+      "address": "Second Floor 22, PU 4, AB Road, Vijay Nagar, Indore, Madhya Pradesh - 452001",
+      "locality": "Vijay Nagar, Indore",
+      "phone": "+91 93190 08619 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/vijay-nagar-indore-44440/map",
+      "homeurl": "https://stores.kiaasaretail.com/vijay-nagar-indore-44440/home"
+    },
+    {
+      "cname": "Kiaasa - South Avenue Mall, Jabalpur",
+      "latlng": {
+        "lat": 23.12462427,
+        "lng": 79.92759027
+      },
+      "address": "Shop No FF 24, South Avenue Mall, Narmada Road, Polipather, Jabalpur, Madhya Pradesh - 482008",
+      "locality": "Polipather, Jabalpur",
+      "phone": "+91 93190 08671 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/polipather-jabalpur-44443/map",
+      "homeurl": "https://stores.kiaasaretail.com/polipather-jabalpur-44443/home"
+    },
+    {
+      "cname": "Kiaasa - Kalpataru Grandeur Township, Indore",
+      "latlng": {
+        "lat": 22.72565191189004,
+        "lng": 75.87451763209643
+      },
+      "address": "Word No 4, Kalpataru Grandeur, Yeshwant Niwas Road, Shivaji Nagar, Indore Tukoganj, Indore, Madhya Pradesh - 452003",
+      "locality": "Indore Tukoganj, Indore",
+      "phone": "+91 91156 56593 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/indore-tukoganj-indore-44356/map",
+      "homeurl": "https://stores.kiaasaretail.com/indore-tukoganj-indore-44356/home"
+    },
+    {
+      "cname": "Kiaasa - Scheme 140, Indore",
+      "latlng": {
+        "lat": 22.7111261,
+        "lng": 75.9093201
+      },
+      "address": "Shop No 336, B.C, Scheme No 140, Pipliyahana, Indore, Madhya Pradesh - 452016",
+      "locality": "Pipliyahana, Indore",
+      "phone": "+91 93199 98258 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/pipliyahana-indore-47918/map",
+      "homeurl": "https://stores.kiaasaretail.com/pipliyahana-indore-47918/home"
+    },
+    {
+      "cname": "Kiaasa – Snehnagar, Indore",
+      "latlng": {
+        "lat": 22.7009798,
+        "lng": 75.8697576
+      },
+      "address": "Shop No 1 & 2, Plot No 86, Scheme No 47, Ground Floor, Satya Complex, Sapna Sangeeta Road, Snehnagar, Indore, Madhya Pradesh - 452001",
+      "locality": "Snehnagar, Indore",
+      "phone": "+91 93199 98165 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/snehnagar-indore-46380/map",
+      "homeurl": "https://stores.kiaasaretail.com/snehnagar-indore-46380/home"
+    },
+    {
+      "cname": "Kiaasa - P&M Mall, Patna",
+      "latlng": {
+        "lat": 25.6342048,
+        "lng": 85.1035514
+      },
+      "address": "Shop No T 17, 3rd Floor, P&M Mall, Pataliputra Chowk, New Passport Office, Patliputra Colony, Patna, Bihar - 800013",
+      "locality": "Patliputra Colony, Patna",
+      "phone": "+91 93190 08664 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/patliputra-colony-patna-43016/map",
+      "homeurl": "https://stores.kiaasaretail.com/patliputra-colony-patna-43016/home"
+    },
+    {
+      "cname": "Kiaasa - Glocal Mall, Nagpur",
+      "latlng": {
+        "lat": 21.1428913,
+        "lng": 79.0795469
+      },
+      "address": "Glocal Mall, Variety Square, Near Metro Station, Sitabuldi, Nagpur, Maharashtra - 440012",
+      "locality": "Sitabuldi, Nagpur",
+      "phone": "+91 93199 98262 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/sitabuldi-nagpur-48073/map",
+      "homeurl": "https://stores.kiaasaretail.com/sitabuldi-nagpur-48073/home"
+    },
+    {
+      "cname": "Kiaasa - City Centre Mall, Patna",
+      "latlng": {
+        "lat": 25.61765456319384,
+        "lng": 85.13528370639582
+      },
+      "address": "Shop No - B0119, City Centre Mall, Christian Colony, Chaggu Bagh, Patna, Bihar - 800001",
+      "locality": "Chaggu Bagh, Patna",
+      "phone": "+91 93199 98263 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/chaggu-bagh-patna-48081/map",
+      "homeurl": "https://stores.kiaasaretail.com/chaggu-bagh-patna-48081/home"
+    },
+    {
+      "cname": "Kiaasa - P&M Mall, Muzaffarpur",
+      "latlng": {
+        "lat": 26.101548,
+        "lng": 85.408073
+      },
+      "address": "Shop No 15, P&M Mall, Swami Vivekanand Road, PJP Infra Private Limited, BIADA Industrial Estate, Phase 1, Bela, Narayanpur Anant, Muzaffarpur, Bihar - 842005",
+      "locality": "Narayanpur Anant, Muzaffarpur",
+      "phone": "+91 93199 98162 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/narayanpur-anant-muzaffarpur-44759/map",
+      "homeurl": "https://stores.kiaasaretail.com/narayanpur-anant-muzaffarpur-44759/home"
+    },
+    {
+      "cname": "Kiaasa - Ranpise Nagar, Akola",
+      "latlng": {
+        "lat": 20.71213008,
+        "lng": 77.00949919
+      },
+      "address": "Shop No G-4, Ratanlal Plot, Black Berry Complex, Ranpise Nagar, Akola, Maharashtra - 444001",
+      "locality": "Ranpise Nagar, Akola",
+      "phone": "+91 93190 08673 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ranpise-nagar-akola-43015/map",
+      "homeurl": "https://stores.kiaasaretail.com/ranpise-nagar-akola-43015/home"
+    },
+    {
+      "cname": "Kiaasa - Gudari Bazar, Samastipur",
+      "latlng": {
+        "lat": 25.86154779,
+        "lng": 85.78708279
+      },
+      "address": "Ward No 22, Marwari Bazar, Near Khadi Bhandar, Gudari Bazar, Samastipur, Bihar - 848101",
+      "locality": "Gudari Bazar, Samastipur",
+      "phone": "+91 93192 70328 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gudari-bazar-samastipur-43029/map",
+      "homeurl": "https://stores.kiaasaretail.com/gudari-bazar-samastipur-43029/home"
+    },
+    {
+      "cname": "Kiaasa - Zora Mall, Raipur",
+      "latlng": {
+        "lat": 21.2387302,
+        "lng": 81.71439086
+      },
+      "address": "Unit No S-17, Second Floor, Zora The Mall, NH-6, Jora, Raipur, Chhattisgarh - 492012",
+      "locality": "Jora, Raipur",
+      "phone": "+91 93192 70257 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/jora-raipur-47893/map",
+      "homeurl": "https://stores.kiaasaretail.com/jora-raipur-47893/home"
+    },
+    {
+      "cname": "Kiaasa - Naya Bazar, Lakhisarai",
+      "latlng": {
+        "lat": 25.16879011,
+        "lng": 86.09558477
+      },
+      "address": "Ward No 25, Ward No 25, Ground Floor, Near ICICI Bank, Naya Bazar, Lakhisarai, Bihar - 811311",
+      "locality": "Naya Bazar, Lakhisarai",
+      "phone": "+91 93192 70329 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/naya-bazar-lakhisarai-44451/map",
+      "homeurl": "https://stores.kiaasaretail.com/naya-bazar-lakhisarai-44451/home"
+    },
+    {
+      "cname": "Kiaasa - Mall Of Ranchi, Kumhartoli, Ranchi",
+      "latlng": {
+        "lat": 23.3783269,
+        "lng": 85.3137987
+      },
+      "address": "Unit No S-17 and 18, Second Floor, Mall Of Ranchi, Ratu Road, New Market Chowk, Opposite Akaswani, Kumhartoli, Ranchi, Jharkhand - 834001",
+      "locality": "Kumhartoli, Ranchi",
+      "phone": "+91 93199 98202 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kumhartoli-ranchi-46384/map",
+      "homeurl": "https://stores.kiaasaretail.com/kumhartoli-ranchi-46384/home"
+    },
+    {
+      "cname": "Kiaasa - Ahilya Nagar, Ahmednagar",
+      "latlng": {
+        "lat": 19.11528994,
+        "lng": 74.73062094
+      },
+      "address": "Shop No 09 and 10, Mauli Sankul Road, Near Zopadi Canteen, Savedi, Ahilya Nagar, Maharashtra - 414003",
+      "locality": "Savedi, Ahilya Nagar",
+      "phone": "+91 86258 04624 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/savedi-ahilya-nagar-44473/map",
+      "homeurl": "https://stores.kiaasaretail.com/savedi-ahilya-nagar-44473/home"
+    },
+    {
+      "cname": "Kiaasa - P&M Mall, Jamshedpur, Jharkhand",
+      "latlng": {
+        "lat": 22.78492965,
+        "lng": 86.180106
+      },
+      "address": "Shop No 167, P&M Mall, Outer Cir Road, Near Bata Sakchi Bazar, Bistupur, Jamshedpur, Jharkhand - 831001",
+      "locality": "Bistupur, Jamshedpur",
+      "phone": "+91 93199 98164 ",
+      "openuntil": "10:30 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/bistupur-jamshedpur-46378/map",
+      "homeurl": "https://stores.kiaasaretail.com/bistupur-jamshedpur-46378/home"
+    },
+    {
+      "cname": "Kiaasa - Sevoke Road, Siliguri",
+      "latlng": {
+        "lat": 26.74075,
+        "lng": 88.432721
+      },
+      "address": "Ground Floor, Planet Mall, Sevoke Road, Ward 43, North City, below P.C. Jewellery Shop, Ward 45, Siliguri, West Bengal - 734001",
+      "locality": "Ward 45, Siliguri",
+      "phone": "+91 93190 08649 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/ward-45-siliguri-44453/map",
+      "homeurl": "https://stores.kiaasaretail.com/ward-45-siliguri-44453/home"
+    },
+    {
+      "cname": "Kiaasa - Phoenix Marketcity, Mumbai",
+      "latlng": {
+        "lat": 19.12852631,
+        "lng": 72.92532623
+      },
+      "address": "F 75 First Floor, Phoenix Marketcity, L B S Marg, Kurla West, Mumbai, Maharashtra - 400070",
+      "locality": "Kurla West, Mumbai",
+      "phone": "+91 93190 08638 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kurla-west-mumbai-44448/map",
+      "homeurl": "https://stores.kiaasaretail.com/kurla-west-mumbai-44448/home"
+    },
+    {
+      "cname": "Kiaasa - Christian Colony, Karimnagar",
+      "latlng": {
+        "lat": 18.443983,
+        "lng": 79.127167
+      },
+      "address": "House No 3-1-368, Tukka Rao complex, Ambedkar Road, ICICI Bank, Christian Colony, Karimnagar, Telangana - 505001",
+      "locality": "Christian Colony, Karimnagar",
+      "phone": "+91 93190 08646 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/christian-colony-karimnagar-43017/map",
+      "homeurl": "https://stores.kiaasaretail.com/christian-colony-karimnagar-43017/home"
+    },
+    {
+      "cname": "Kiaasa - Dhanori, Pune",
+      "latlng": {
+        "lat": 18.59712973,
+        "lng": 73.89942414
+      },
+      "address": "Shop No 52, Ground Floor, Triaa Vasantam City Center, Lohgaon Road, Dhanori, Pune, Maharashtra - 411015",
+      "locality": "Dhanori, Pune",
+      "phone": "+91 93192 70258 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/dhanori-pune-44352/map",
+      "homeurl": "https://stores.kiaasaretail.com/dhanori-pune-44352/home"
+    },
+    {
+      "cname": "Kiaasa - Lulu Mall, Hyderabad",
+      "latlng": {
+        "lat": 17.48995174,
+        "lng": 78.39285942
+      },
+      "address": "FF 14, First Floor, Survey No 1050, Balanagar Mandal, KPHB 3rd Phase, Kukatpally, Hyderabad, Telangana - 500072",
+      "locality": "Kukatpally, Hyderabad",
+      "phone": "+91 93190 08651 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/kukatpally-hyderabad-43003/map",
+      "homeurl": "https://stores.kiaasaretail.com/kukatpally-hyderabad-43003/home"
+    },
+    {
+      "cname": "Kiaasa - As Rao Nagar, Hyderabad",
+      "latlng": {
+        "lat": 17.47809186231349,
+        "lng": 78.56068865764884
+      },
+      "address": "LIG A 8, Rao Nagar Road, As Rao Nagar, Secunderabad, Telangana - 500062",
+      "locality": "As Rao Nagar, Secunderabad",
+      "phone": "+91 93190 08652 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/as-rao-nagar-secunderabad-44452/map",
+      "homeurl": "https://stores.kiaasaretail.com/as-rao-nagar-secunderabad-44452/home"
+    },
+    {
+      "cname": "Kiaasa - L&t Mall, Hyderabad",
+      "latlng": {
+        "lat": 17.42933062,
+        "lng": 78.4501953
+      },
+      "address": "L4 25, 3rd Floor, Next Galleria Mall, Punjagutta, Hyderabad, Telangana - 500082",
+      "locality": "Punjagutta, Hyderabad",
+      "phone": "+91 93190 08645 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/punjagutta-hyderabad-44476/map",
+      "homeurl": "https://stores.kiaasaretail.com/punjagutta-hyderabad-44476/home"
+    },
+    {
+      "cname": "Kiaasa - Nacharam, Hyderabad",
+      "latlng": {
+        "lat": 17.41909609,
+        "lng": 78.54141469
+      },
+      "address": "Shop No B8/B9, Raghavendra Complex, Habsiguda, Hyderabad, Telangana - 500007",
+      "locality": "Habsiguda, Hyderabad",
+      "phone": "+91 93190 08655 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/habsiguda-hyderabad-43030/map",
+      "homeurl": "https://stores.kiaasaretail.com/habsiguda-hyderabad-43030/home"
+    },
+    {
+      "cname": "Kiaasa - Vanasthalipuram, Hyderabad",
+      "latlng": {
+        "lat": 17.3349283,
+        "lng": 78.5670246
+      },
+      "address": "Plot No 13 & 14, Shop No 3, GHMC No 5-5-102/G, Ground Floor, BMA Tower, Vanasthali Hills, Vanasthalipuram, Hyderabad, Telangana - 500070",
+      "locality": "Vanasthalipuram, Hyderabad",
+      "phone": "+91 93190 08650 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/vanasthalipuram-hyderabad-43018/map",
+      "homeurl": "https://stores.kiaasaretail.com/vanasthalipuram-hyderabad-43018/home"
+    },
+    {
+      "cname": "Kiaasa - DN Regalia Mall, Bhubaneswar",
+      "latlng": {
+        "lat": 20.24102446,
+        "lng": 85.75834447
+      },
+      "address": "Ground Floor, DN Regalia Mall, DN Square, Kalinga Vihar, Patrapada, Bhubaneswar, Odisha - 751019",
+      "locality": "Patrapada, Bhubaneswar",
+      "phone": "+91 77352 32668 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/patrapada-bhubaneswar-43002/map",
+      "homeurl": "https://stores.kiaasaretail.com/patrapada-bhubaneswar-43002/home"
+    },
+    {
+      "cname": "Kiaasa - Gajuwaka, Visakhapatnam",
+      "latlng": {
+        "lat": 17.68347768,
+        "lng": 83.20089829
+      },
+      "address": "Vogue Elegant Fashion Boutique Celest Mall, Celest Mall, Old Gajuwaka, Chaitanya Nagar, Gajuwaka, Visakhapatnam, Andhra Pradesh - 530026",
+      "locality": "Gajuwaka, Visakhapatnam",
+      "phone": "+91 93192 70260 ",
+      "openuntil": "10:00 AM to 09:30 PM",
+      "mapurl": "https://stores.kiaasaretail.com/gajuwaka-visakhapatnam-43033/map",
+      "homeurl": "https://stores.kiaasaretail.com/gajuwaka-visakhapatnam-43033/home"
+    }
+  ]
+}
