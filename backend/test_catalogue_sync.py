@@ -46,7 +46,7 @@ class CatalogueSyncTests(unittest.TestCase):
         sync=CatalogueSync(self.data,enabled=False)
         sync.start();self.assertIsNone(sync._thread)
         event=threading.Event()
-        sync=CatalogueSync(self.data,refresh=lambda **kw:event.set(),interval=100)
+        sync=CatalogueSync(self.data,refresh=lambda **kw:event.set(),interval=100,enabled=True)
         sync.start();self.assertTrue(event.wait(2));sync.stop()
         self.assertFalse(sync._thread.is_alive())
     def test_overlapping_refresh_is_skipped(self):
